@@ -1,5 +1,5 @@
 import React from "react";
-import SpriteCard from "@/components/spriteCard";
+import SpriteCard from "@/components/SpriteCard";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { FlatList, View, ActivityIndicator } from "react-native";
 import { data } from "@/mock/sprite-data";
@@ -36,7 +36,8 @@ const Index = () => {
               }}
               id={item.id}
               source={item.img}
-              colors={VariantColors[item.variant as Variant]}
+              name={item.name}
+              colors={VariantColors[item.variant as Variant]??VariantColors.default}
             />
           </View>
         )}

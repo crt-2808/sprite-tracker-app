@@ -40,8 +40,9 @@ const CustomText = ({
   return (
     <View className="px-5">
       <Text className="text-xl">
-        <Text className="font-bold pt-20">{title}: </Text>
-        {description}
+        <Text className="font-bold pt-20">{title}</Text>
+
+        {description && <Text>:{description}</Text>}
       </Text>
     </View>
   );

@@ -1,6 +1,6 @@
 import { Pressable, ImageSourcePropType, Text, View } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
-import CustomImage from "./shared/customImage";
+import CustomImage from "./shared/CustomImage";
 import { useSpriteStore } from "@/store/useSpriteStore";
 import Ionicons from "@expo/vector-icons/Ionicons";
 interface Props {
@@ -8,10 +8,11 @@ interface Props {
   source?: ImageSourcePropType;
   colors: [string, string, string];
   className?: string;
+  name: string
   onPress: () => void;
 }
 
-const SpriteCard = ({ id, source, colors, className, onPress }: Props) => {
+const SpriteCard = ({ id, source, colors, className, name, onPress }: Props) => {
   const progress = useSpriteStore(
     (state) =>
       // Aquí debes consultar el progreso mediante el id
@@ -34,7 +35,7 @@ const SpriteCard = ({ id, source, colors, className, onPress }: Props) => {
           onLongPress={() => handleSpriteLongPress(id)}
           className="flex-1"
         >
-          <CustomImage isDiscovered={isDiscovered} source={source} />
+          <CustomImage isDiscovered={isDiscovered} source={source} name={name} />
           {progress?.is_mastered &&(
             <View className="absolute top-2 right-2 rounded-full bg-black/60 p-1.5">
               <Ionicons name="medal-sharp" size={30} color="#FFD700" />

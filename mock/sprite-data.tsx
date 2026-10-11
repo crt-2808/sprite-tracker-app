@@ -36,7 +36,7 @@ export const data = [
     v_efect: "Increases chances of spawning items from your Loot Hacks",
     s_efect:
       "Recover some health or shields after being damaged after a short duration. Increase amount healed with each Level Up",
-    variant: "bountyHacker",
+    variant: "hacker",
     rarity: "special",
   },
   {
@@ -45,7 +45,7 @@ export const data = [
     img: require("../assets/spriteIcons/Trick_or_Treat_Jonesy.webp"),
     s_efect:
       "Recover some health or shields after being damaged after a short duration. Increase amount healed with each Level Up",
-    variant: "trickOrtreat",
+    variant: "tricktreat",
     rarity: "special",
   },
 ];

@@ -3,8 +3,9 @@ import { View, Image, Pressable, Text } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Redirect, useLocalSearchParams, useNavigation } from "expo-router";
 import { data } from "@/mock/sprite-data";
-import CustomText from "@/components/shared/customText";
+import CustomText from "@/components/shared/CustomText";
 import { useSpriteStore } from "@/store/useSpriteStore";
+import CustomImage from "@/components/shared/CustomImage";
 const SPRITE_LEVELS = [1, 2, 3, 4, 5] as const;
 const SpriteDetailScreen = () => {
   const { id } = useLocalSearchParams();
@@ -30,7 +31,8 @@ const SpriteDetailScreen = () => {
   return (
     <SafeAreaView>
       <View className="relative w-full items-center justify-center">
-        <Image source={sprite.img} className="scale-75 -mt-safe-offset-36" />
+        <CustomImage source={sprite.img} name={sprite.name} fallbackMode="message" isDiscovered={true} className="-mt-safe-offset-16"/>
+        {/* <Image source={sprite.img} className=" -mt-safe-offset-36" /> */}
         {progress?.is_mastered && (
           <View className="absolute bottom-2 right-0">
             <CustomText

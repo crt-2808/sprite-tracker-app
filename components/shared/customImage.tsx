@@ -35,8 +35,8 @@ const CustomImage = ({
     .filter((element) => {
       return element.trim().length > 0;
     })
-    .map((elemente) => {
-      return elemente.charAt(0).toUpperCase();
+    .map((element) => {
+      return element.charAt(0).toUpperCase();
     })
     .join("");
   const showFallback = !source || hasError;

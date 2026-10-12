@@ -1,37 +1,43 @@
 import { useEffect } from "react";
-import { View, Image, Pressable, Text } from "react-native";
+import { View, Pressable, Text } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Redirect, useLocalSearchParams, useNavigation } from "expo-router";
-import { data } from "@/mock/sprite-data";
+import { useLocalSearchParams, useNavigation } from "expo-router";
 import CustomText from "@/components/shared/CustomText";
 import { useSpriteStore } from "@/store/useSpriteStore";
 import CustomImage from "@/components/shared/CustomImage";
+import { getSpriteById } from "@/data/spriteCatalog.utils";
 const SPRITE_LEVELS = [1, 2, 3, 4, 5] as const;
+
 const SpriteDetailScreen = () => {
   const { id } = useLocalSearchParams();
   const navigation = useNavigation();
-  const sprite = data.find((p) => p.id === id);
-  const progress = useSpriteStore((state) => state.progressById[id as string]);
-  const isDiscovered = !!progress;
-  const level = progress?.level ?? null;
-
-  const unlockSprite = useSpriteStore((state) => state.unlockSprite);
-  const setSpriteLevel = useSpriteStore((state) => state.setSpriteLevel);
-
+  const sprite = getSpriteById(Number(id))
   useEffect(() => {
     navigation.setOptions({
       title: sprite?.name ?? "Sprite",
     });
   }, [navigation, sprite?.name]);
+  const progress = useSpriteStore((state) => state.progressById[id as string]);
+  const unlockSprite = useSpriteStore((state) => state.unlockSprite);
+  const setSpriteLevel = useSpriteStore((state) => state.setSpriteLevel);
 
   if (!sprite) {
-    return <Redirect href={"/home"} />;
+    return <CustomText variant="onlyText" title="No se encontro el espiritu"/>;
   }
+
+  const isDiscovered = !!progress;
+  const level = progress?.level ?? null;
 
   return (
     <SafeAreaView>
       <View className="relative w-full items-center justify-center">
-        <CustomImage source={sprite.img} name={sprite.name} fallbackMode="message" isDiscovered={true} className="-mt-safe-offset-16"/>
+        <CustomImage
+          source={sprite.imageSource}
+          name={sprite.name}
+          fallbackMode="message"
+          isDiscovered={true}
+          className="-mt-safe-offset-16"
+        />
         {/* <Image source={sprite.img} className=" -mt-safe-offset-36" /> */}
         {progress?.is_mastered && (
           <View className="absolute bottom-2 right-0">
@@ -45,20 +51,18 @@ const SpriteDetailScreen = () => {
         )}
       </View>
       <View className="pb-2">
-        {sprite.v_efect ? (
+        {sprite.spriteVariantEffect && (
           <CustomText
             variant="blockText"
             title="Special Effect"
-            description={sprite.v_efect}
+            description={sprite.spriteVariantEffect}
           />
-        ) : (
-          <></>
         )}
       </View>
       <CustomText
         className="pt-25"
         title="Sprite Effect"
-        description={sprite.s_efect}
+        description={sprite.spriteFamilyEffect}
       />
       {!isDiscovered ? (
         <Pressable onPress={() => unlockSprite(id as string)}>

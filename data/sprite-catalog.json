@@ -1,0 +1,2572 @@
+{
+  "seasons": [
+    {
+      "id": 42,
+      "chapter": 7,
+      "season": 4,
+      "name": "Override"
+    },
+    {
+      "id": 41,
+      "chapter": 7,
+      "season": 3,
+      "name": "Runners"
+    }
+  ],
+  "sprite_families": [
+    {
+      "id": 1,
+      "key": "Water",
+      "name": "Water",
+      "description": "Replenish shields while standing in water. Increases in power at each Level Up 2 Shield 3 Shield 4 Shield 5 Shield 6 Shield per tick",
+      "seasonID": 41
+    },
+    {
+      "id": 2,
+      "key": "Earth",
+      "name": "Earth",
+      "description": "You have a chance to find additional rare items when opening chests. Chance increases at each Level Up 10 12. 5 15 17. 5 20 chance to find additional rare loot",
+      "seasonID": 41
+    },
+    {
+      "id": 3,
+      "key": "Spitfire",
+      "name": "Fire",
+      "description": "Creates a fiery burst when you deal enough damage to an enemy. Required damage decreases at each Level Up 150 Damage 125 Damage 100 Damage 75 Damage 50 Damage to trigger",
+      "seasonID": 41
+    },
+    {
+      "id": 4,
+      "key": "Duck",
+      "name": "Duck",
+      "description": "Emoting or Jamming replenishes shields. Increases in power at each Level Up 2 Shield 3 Shield 4 Shield 6 Shield 8 Shield per tick",
+      "seasonID": 41
+    },
+    {
+      "id": 5,
+      "key": "Ghost",
+      "name": "Ghost",
+      "description": "Grants cloak for a duration upon reloading. Increases in duration at each Level Up 3 Seconds 3. 5 Seconds 4 Seconds 4. 5 Seconds 5 Seconds",
+      "seasonID": 41
+    },
+    {
+      "id": 6,
+      "key": "Sleepy",
+      "name": "Dream",
+      "description": "Grants a random item at each level exploding with legendary loot at Max Level. Loot value increases at each Level Up",
+      "seasonID": 41
+    },
+    {
+      "id": 7,
+      "key": "Punk",
+      "name": "Punk",
+      "description": "Possibly nothing. or infinitely something",
+      "seasonID": 41
+    },
+    {
+      "id": 8,
+      "key": "King",
+      "name": "King",
+      "description": "Your Pickaxe deals more damage. Increases in damage at each Level Up 30 40 60 80 120 bonus damage",
+      "seasonID": 41
+    },
+    {
+      "id": 9,
+      "key": "ZeroPoint",
+      "name": "Zero Point",
+      "description": "Spawn a Shield Bubble Jr. when you use a healing item on yourself excluding splashes and grenades. Increases in duration at each Level Up 6 Seconds 7 Seconds 8 Seconds 9 Seconds 10 Seconds",
+      "seasonID": 41
+    },
+    {
+      "id": 10,
+      "key": "Demon",
+      "name": "Demon",
+      "description": "Siphon some health and shields when you eliminate an opponent. Increases in power at each Level Up 10 Healing 15 Healing 20 Healing 25 Healing 30 Healing per elimination",
+      "seasonID": 41
+    },
+    {
+      "id": 11,
+      "key": "BurntPeanut",
+      "name": "Burnt Peanut",
+      "description": "Goop When eliminating players you may find more loot. Sometimes mythic. Chance increases at each Level Up 20 30 40 50 60 chance to find more loot. 10 chance to find Mythic at Max Level",
+      "seasonID": 41
+    },
+    {
+      "id": 12,
+      "key": "Boss",
+      "name": "Boss",
+      "description": "Grants an increase to your max HP and Shield. Increases at each Level Up 5 HP Shield 10 HP Shield 15 HP Shield 20 HP Shield 25 HP Shield",
+      "seasonID": 41
+    },
+    {
+      "id": 13,
+      "key": "Seven",
+      "name": "Seven",
+      "description": "Enemy player foot trails are visible in the world for your Squad. Duration increases at each Level Up 10 Seconds 15 Seconds 20 Seconds 25 Seconds 30 Second foot trails",
+      "seasonID": 41
+    },
+    {
+      "id": 14,
+      "key": "Fishy",
+      "name": "Fishy",
+      "description": "Swim speed greatly increased. Taking damage also briefly increases movement speed. Increases in power at each Level Up 25 Swim Speed 10 Movement Speed 50 Swim Speed 20 Movement Speed 100 Swim Speed 30 Movement Speed 150 Swim Speed 40 Movement Speed 200 Swim Speed 50 Movement Speed Bonuses",
+      "seasonID": 41
+    },
+    {
+      "id": 15,
+      "key": "Soccer",
+      "name": "Striker",
+      "description": "Gain the Overdrive effect when you Mantle Hurdle or Wall Scramble. Duration increases at each Level Up 6 Seconds 7 Seconds 8 Seconds 9 Seconds 10 Seconds of Overdrive",
+      "seasonID": 41
+    },
+    {
+      "id": 16,
+      "key": "Drifter",
+      "name": "Aura",
+      "description": "Gain a Shock Rock charge when you deal enough damage to enemies. Required damage decreases at each Level Up 175 Damage 150 Damage 125 Damage 100 Damage 75 Damage to trigger",
+      "seasonID": 41
+    },
+    {
+      "id": 17,
+      "key": "Air",
+      "name": "Air",
+      "description": "Increases sprinting speed and jump height. Also nullifies fall damage. Jump height increased with each Level Up",
+      "seasonID": 41
+    },
+    {
+      "id": 18,
+      "key": "Grim",
+      "name": "Grim",
+      "description": "Players who attack you are marked for a duration. Increases in duration at each Level Up 3 Seconds 3. 5 Seconds 4 Seconds 4. 5 Seconds 5 Seconds",
+      "seasonID": 41
+    },
+    {
+      "id": 19,
+      "key": "Overshield",
+      "name": "Overshield",
+      "description": "Grants overshield scaling with level.",
+      "seasonID": 42
+    },
+    {
+      "id": 20,
+      "key": "ImprovedSlide",
+      "name": "Mega Man",
+      "description": "Slip and slide around with reduced friction while Sliding. Slide farther with each Level Up",
+      "seasonID": 42
+    },
+    {
+      "id": 21,
+      "key": "WinnerB",
+      "name": "X-Ray",
+      "description": "Periodically mark enemies in an area around you. Mark more often with each Level Up",
+      "seasonID": 42
+    },
+    {
+      "id": 22,
+      "key": "WinnerC",
+      "name": "Onigiri",
+      "description": "Applies Overdrive after eating or drinking a Consumable. Overdrive lasts longer with each Level Up",
+      "seasonID": 42
+    },
+    {
+      "id": 23,
+      "key": "GhostDamage",
+      "name": "Blinky",
+      "description": "Grants cloak for a duration when you take damage. Cloak duration increases with each Level Up",
+      "seasonID": 42
+    },
+    {
+      "id": 24,
+      "key": "Birthday",
+      "name": "Birthday",
+      "description": "Opening chests has a chance to spawn a piece of cake. Eliminations can spawn cake at max level. Chance to spawn cake increases with each Level Up",
+      "seasonID": 42
+    },
+    {
+      "id": 25,
+      "key": "BodySlam",
+      "name": "Crash Bandicoot",
+      "description": "Active Jump In Air Triggers a whirlwind attack damaging and knocking back nearby enemies. Damage increases and cooldown decreases with each Level Up",
+      "seasonID": 42
+    },
+    {
+      "id": 26,
+      "key": "FillerGrunt",
+      "name": "John Wick",
+      "description": "Knocking players reveals others nearby. Mark duration increases at each Level Up 3 Seconds 3. 5 Seconds 4 Seconds 4. 5 Seconds 5 Seconds",
+      "seasonID": 41
+    },
+    {
+      "id": 27,
+      "key": "Batman",
+      "name": "Batman",
+      "description": "Grants the ability to launch in the air and deploy the Bat Cape",
+      "seasonID": 41
+    },
+    {
+      "id": 28,
+      "key": "WinnerA",
+      "name": "Pond",
+      "description": "Active Jump shortly after landing to trigger a Super Jump if charges are present. Gain charges over time. Super jump strength increases and cooldown decreases with each Level Up",
+      "seasonID": 42
+    },
+    {
+      "id": 29,
+      "key": "CompanyStargazer",
+      "name": "Pollo",
+      "description": "Upon earning an elimination slowly replenish shield for you and nearby squad members for a duration. Duration increases at each Level Up 6 Seconds 7 Seconds 8 Seconds 9 Seconds 10 Seconds",
+      "seasonID": 41
+    },
+    {
+      "id": 30,
+      "key": "CokeParmesan",
+      "name": "Vini Jr.",
+      "description": "Sprinting for a short time makes your slide destructive. Slidekicking enemies increases rate of fire and reload speed. Increases in power at each Level Up 40 dmg 10 fire rate 45 dmg 20 fire rate 50 dmg 30 fire rate 55 dmg 40 fire rate 60 dmg 50 fire rate",
+      "seasonID": 41
+    },
+    {
+      "id": 31,
+      "key": "PedicureAntacid",
+      "name": "Ironmouse",
+      "description": "Regenerate health over time when low. While regenerating gain Cloak and low gravity. Health regenerated to increases at each Level Up 60 Health 70 Health 80 Health 90 Health 100 Health",
+      "seasonID": 41
+    },
+    {
+      "id": 32,
+      "key": "Llama",
+      "name": "Llama",
+      "description": "Opening ammo boxes has a chance to grant a weapon upgrade. Chance increases at each Level Up 5 10 15 17 20",
+      "seasonID": 41
+    },
+    {
+      "id": 33,
+      "key": "Peely",
+      "name": "Peeky Peely",
+      "description": "Emits a ping for players with rare sprites nearby but marks you on the map. Ping radius increases at each Level Up 40m 50m 60m 70m 80m",
+      "seasonID": 41
+    },
+    {
+      "id": 34,
+      "key": "CosmicThunderDoubleJump",
+      "name": "Jackrabbit",
+      "description": "Active Jump In Air Double Jump. Cooldown between jumps decreases with each Level Up",
+      "seasonID": 42
+    },
+    {
+      "id": 35,
+      "key": "ReloadOverTime",
+      "name": "Shadow",
+      "description": "Automatically reload unequipped weapons over time. Reloads equipped weapon at max level. Automatic reload gets faster with each Level Up",
+      "seasonID": 42
+    },
+    {
+      "id": 36,
+      "key": "BushRanger",
+      "name": "Bush",
+      "description": "Grants a bush on you after a duration gain a bush on elimination at max level. Time between bush activating decreases with each Level Up",
+      "seasonID": 42
+    },
+    {
+      "id": 37,
+      "key": "NarrowFleaMonkey",
+      "name": "Tails",
+      "description": "Active Jump In Air Hover with the help of Tails. Hover speed increased with each Level Up",
+      "seasonID": 42
+    },
+    {
+      "id": 38,
+      "key": "Killswitch",
+      "name": "Killswitch",
+      "description": "Active Aim In Air Enter Hangtime with improved accuracy. Accuracy increases with each Level Up",
+      "seasonID": 42
+    },
+    {
+      "id": 39,
+      "key": "Dwarf",
+      "name": "Adventure",
+      "description": "Upgrades a random item in the player s inventory with each Level Up",
+      "seasonID": 42
+    },
+    {
+      "id": 40,
+      "key": "Klombo",
+      "name": "Klombo",
+      "description": "Grants random items at each level only levels up by consuming items. Item quality increases with each Level Up",
+      "seasonID": 42
+    },
+    {
+      "id": 41,
+      "key": "Jonesy",
+      "name": "Jonesy",
+      "description": "Recover some health or shields after being damaged after a short duration. Increase amount healed with each Level Up",
+      "seasonID": 42
+    },
+    {
+      "id": 42,
+      "key": "NarrowFlea",
+      "name": "Sonic",
+      "description": "Gotta Go Fast. Sprint faster with each Level Up",
+      "seasonID": 42
+    },
+    {
+      "id": 43,
+      "key": "Crown",
+      "name": "Crown",
+      "description": "Only levels up by winning matches while equipped. Mastery with 1 win. New variants unlocked after mastering",
+      "seasonID": 42
+    },
+    {
+      "id": 44,
+      "key": "8BitBlaster",
+      "name": "8-Bit",
+      "description": "Find an 8 Bit Shotgun in your first chest and gain a score multiplier for it.",
+      "seasonID": 42
+    },
+    {
+      "id": 45,
+      "key": "StormScout",
+      "name": "Storm Scout",
+      "description": "Applies Overdrive after taking a certain amount of storm damage. Reveals future Storm Circles at max level. Increases Overdrive duration with each Level Up",
+      "seasonID": 42
+    },
+    {
+      "id": 46,
+      "key": "IncreaseHeals",
+      "name": "Morgana",
+      "description": "Increases the effectiveness of healing items. Healing effectiveness increases with each Level Up",
+      "seasonID": 42
+    },
+    {
+      "id": 47,
+      "key": "PhaseDash",
+      "name": "Spooky Dash",
+      "description": "Active Jump In Air Spooky Dash lets you phase through some objects. Gain charges over time. Charge cooldown decreases with each Level Up",
+      "seasonID": 42
+    },
+    {
+      "id": 48,
+      "key": "HealthSiphon",
+      "name": "Vampire",
+      "description": "Recover health when damaging an enemy. Health recovered percent increases with each Level Up",
+      "seasonID": 42
+    },
+    {
+      "id": 49,
+      "key": "IncreasedMelee",
+      "name": "The Deer",
+      "description": "Melee attacks deal more damage. Melee attack damage increases with each Level Up",
+      "seasonID": 42
+    },
+    {
+      "id": 50,
+      "key": "WinnerD",
+      "name": "Dumpster Dive",
+      "description": "Food provides bonus healing. Find food when jumping out of hiding props and a small chance when opening containers. Find better food with each Level Up",
+      "seasonID": 42
+    }
+  ],
+  "variants": [
+    {
+      "id": 1,
+      "code": "base",
+      "name": "Base",
+      "effect": null
+    },
+    {
+      "id": 2,
+      "code": "gold",
+      "name": "Gold",
+      "effect": "Gain 3x bonus XP from eliminations"
+    },
+    {
+      "id": 3,
+      "code": "cheatmaster",
+      "name": "Cheatmaster",
+      "effect": "Button mash All inputs are correct when entering cheat codes found in the world"
+    },
+    {
+      "id": 4,
+      "code": "hacker",
+      "name": "Hacker",
+      "effect": "Increases chances of spawning items from your Loot Hacks."
+    },
+    {
+      "id": 5,
+      "code": "reaper",
+      "name": "Reaper",
+      "effect": "Chance to find sprites when eliminating opponents. Only gains sprite XP from eliminations unless sprite has special XP rules."
+    },
+    {
+      "id": 6,
+      "code": "tricktreat",
+      "name": "Tricktreat",
+      "effect": null
+    },
+    {
+      "id": 7,
+      "code": "cube",
+      "name": "Cube",
+      "effect": null
+    },
+    {
+      "id": 8,
+      "code": "candy",
+      "name": "Candy",
+      "effect": "Gain 20 more Sprite Dust upon Extraction"
+    },
+    {
+      "id": 9,
+      "code": "galaxy",
+      "name": "Galaxy",
+      "effect": "Gain 30 more Ammo whenever picked up in the world"
+    },
+    {
+      "id": 10,
+      "code": "holofoil",
+      "name": "Holofoil",
+      "effect": "5 chance for your squad to find rare Sprite Variants from looting chests"
+    },
+    {
+      "id": 11,
+      "code": "quack",
+      "name": "Quack",
+      "effect": null
+    },
+    {
+      "id": 12,
+      "code": "gem",
+      "name": "Gem",
+      "effect": "Take 30 less Fall damage"
+    }
+  ],
+  "rarities": [
+    {
+      "id": 1,
+      "code": "rare",
+      "name": "Rare"
+    },
+    {
+      "id": 2,
+      "code": "special",
+      "name": "Special"
+    },
+    {
+      "id": 3,
+      "code": "epic",
+      "name": "Epic"
+    },
+    {
+      "id": 4,
+      "code": "legendary",
+      "name": "Legendary"
+    },
+    {
+      "id": 5,
+      "code": "mythic",
+      "name": "Mythic"
+    }
+  ],
+  "sprites": [
+    {
+      "id": 1,
+      "family_id": 1,
+      "variant_id": 1,
+      "rarity_id": 1,
+      "name": "Water",
+      "image_file": "T_Icon_BR_Creature_Sprite_Water_Unvault_Ch7S3_ui_L.webp"
+    },
+    {
+      "id": 2,
+      "family_id": 1,
+      "variant_id": 8,
+      "rarity_id": 2,
+      "name": "Gummy Water",
+      "image_file": "T_Icon_BR_Creature_Sprite_Water_Candy_ui_L.webp"
+    },
+    {
+      "id": 3,
+      "family_id": 1,
+      "variant_id": 9,
+      "rarity_id": 2,
+      "name": "Galaxy Water",
+      "image_file": "T_Icon_BR_Creature_Sprite_Water_Galaxy_ui_L.webp"
+    },
+    {
+      "id": 4,
+      "family_id": 1,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Water",
+      "image_file": "T_Icon_BR_Creature_Sprite_Water_Gold_ui_L.webp"
+    },
+    {
+      "id": 5,
+      "family_id": 2,
+      "variant_id": 1,
+      "rarity_id": 1,
+      "name": "Earth",
+      "image_file": "T_Icon_BR_Creature_Sprite_Earth_Ch7S3_UI_L.webp"
+    },
+    {
+      "id": 6,
+      "family_id": 2,
+      "variant_id": 8,
+      "rarity_id": 2,
+      "name": "Gummy Earth",
+      "image_file": "T_Icon_BR_Creature_Sprite_Earth_Candy_ui_L.webp"
+    },
+    {
+      "id": 7,
+      "family_id": 2,
+      "variant_id": 9,
+      "rarity_id": 2,
+      "name": "Galaxy Earth",
+      "image_file": "T_Icon_BR_Creature_Sprite_Earth_Galaxy_ui_L.webp"
+    },
+    {
+      "id": 8,
+      "family_id": 2,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Earth",
+      "image_file": "T_Icon_BR_Creature_Sprite_Earth_Gold_ui_L.webp"
+    },
+    {
+      "id": 9,
+      "family_id": 3,
+      "variant_id": 1,
+      "rarity_id": 1,
+      "name": "Fire",
+      "image_file": "T_Icon_BR_Creature_Sprite_Fire_Unvault_Ch7S3_ui_L.webp"
+    },
+    {
+      "id": 10,
+      "family_id": 3,
+      "variant_id": 8,
+      "rarity_id": 2,
+      "name": "Gummy Fire",
+      "image_file": "T_Icon_BR_Creature_Sprite_Fire_Candy_ui_L.webp"
+    },
+    {
+      "id": 11,
+      "family_id": 3,
+      "variant_id": 9,
+      "rarity_id": 2,
+      "name": "Galaxy Fire",
+      "image_file": "T_Icon_BR_Creature_Sprite_Fire_Galaxy_ui_L.webp"
+    },
+    {
+      "id": 12,
+      "family_id": 3,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Fire",
+      "image_file": "T_Icon_BR_Creature_Sprite_Fire_Gold_ui_L.webp"
+    },
+    {
+      "id": 13,
+      "family_id": 4,
+      "variant_id": 1,
+      "rarity_id": 3,
+      "name": "Duck",
+      "image_file": "T_Icon_BR_Duck_Default_L.webp"
+    },
+    {
+      "id": 14,
+      "family_id": 4,
+      "variant_id": 8,
+      "rarity_id": 2,
+      "name": "Gummy Duck",
+      "image_file": "T_Icon_BR_Duck_Candy_L.webp"
+    },
+    {
+      "id": 15,
+      "family_id": 4,
+      "variant_id": 9,
+      "rarity_id": 2,
+      "name": "Galaxy Duck",
+      "image_file": "T_Icon_BR_Duck_Galaxy_L.webp"
+    },
+    {
+      "id": 16,
+      "family_id": 4,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Duck",
+      "image_file": "T_Icon_BR_Duck_Gold_L.webp"
+    },
+    {
+      "id": 17,
+      "family_id": 5,
+      "variant_id": 1,
+      "rarity_id": 3,
+      "name": "Ghost",
+      "image_file": "T_Icon_BR_Creature_Sprite_Ghost_Unvault_L.webp"
+    },
+    {
+      "id": 18,
+      "family_id": 5,
+      "variant_id": 8,
+      "rarity_id": 2,
+      "name": "Gummy Ghost",
+      "image_file": "T_Icon_BR_Creature_Sprite_Ghost_Candy_L.webp"
+    },
+    {
+      "id": 19,
+      "family_id": 5,
+      "variant_id": 9,
+      "rarity_id": 2,
+      "name": "Galaxy Ghost",
+      "image_file": "T_Icon_BR_Creature_Sprite_Ghost_Galaxy_L.webp"
+    },
+    {
+      "id": 20,
+      "family_id": 5,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Ghost",
+      "image_file": "T_Icon_BR_Creature_Sprite_Ghost_Gold_L.webp"
+    },
+    {
+      "id": 21,
+      "family_id": 6,
+      "variant_id": 1,
+      "rarity_id": 4,
+      "name": "Dream",
+      "image_file": "T_Icon_BR_Creature_Sprite_Sleepy_ui_L.webp"
+    },
+    {
+      "id": 22,
+      "family_id": 6,
+      "variant_id": 8,
+      "rarity_id": 2,
+      "name": "Gummy Dream",
+      "image_file": "T_Icon_BR_Creature_Sprite_Sleepy_Candy_ui_L.webp"
+    },
+    {
+      "id": 23,
+      "family_id": 6,
+      "variant_id": 9,
+      "rarity_id": 2,
+      "name": "Galaxy Dream",
+      "image_file": "T_Icon_BR_Creature_Sprite_Sleepy_Galaxy_ui_L.webp"
+    },
+    {
+      "id": 24,
+      "family_id": 6,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Dream",
+      "image_file": "T_Icon_BR_Creature_Sprite_Sleepy_Gold_ui_L.webp"
+    },
+    {
+      "id": 25,
+      "family_id": 7,
+      "variant_id": 1,
+      "rarity_id": 4,
+      "name": "Punk",
+      "image_file": "T_Icon_BR_Creature_Sprite_Punk_ui_L.webp"
+    },
+    {
+      "id": 26,
+      "family_id": 7,
+      "variant_id": 8,
+      "rarity_id": 2,
+      "name": "Gummy Punk",
+      "image_file": "T_Icon_BR_Creature_Sprite_Punk_Candy_ui_L.webp"
+    },
+    {
+      "id": 27,
+      "family_id": 7,
+      "variant_id": 9,
+      "rarity_id": 2,
+      "name": "Galaxy Punk",
+      "image_file": "T_Icon_BR_Creature_Sprite_Punk_Galaxy_ui_L.webp"
+    },
+    {
+      "id": 28,
+      "family_id": 7,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Punk",
+      "image_file": "T_Icon_BR_Creature_Sprite_Punk_Gold_ui_L.webp"
+    },
+    {
+      "id": 29,
+      "family_id": 8,
+      "variant_id": 1,
+      "rarity_id": 3,
+      "name": "King",
+      "image_file": "T_Icon_BR_Creature_Sprite_King_ui_L.webp"
+    },
+    {
+      "id": 30,
+      "family_id": 8,
+      "variant_id": 8,
+      "rarity_id": 2,
+      "name": "Gummy King",
+      "image_file": "T_Icon_BR_Creature_Sprite_King_Candy_ui_L.webp"
+    },
+    {
+      "id": 31,
+      "family_id": 8,
+      "variant_id": 9,
+      "rarity_id": 2,
+      "name": "Galaxy King",
+      "image_file": "T_Icon_BR_Creature_Sprite_King_Galaxy_ui_L.webp"
+    },
+    {
+      "id": 32,
+      "family_id": 8,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold King",
+      "image_file": "T_Icon_BR_Creature_Sprite_King_Gold_ui_L.webp"
+    },
+    {
+      "id": 33,
+      "family_id": 9,
+      "variant_id": 1,
+      "rarity_id": 5,
+      "name": "Zero Point",
+      "image_file": "T_Icon_BR_Creature_Sprite_ZeroPoint_ui_L.webp"
+    },
+    {
+      "id": 34,
+      "family_id": 9,
+      "variant_id": 8,
+      "rarity_id": 2,
+      "name": "Gummy Zero Point",
+      "image_file": "T_Icon_BR_Creature_Sprite_ZeroPoint_Candy_ui_L.webp"
+    },
+    {
+      "id": 35,
+      "family_id": 9,
+      "variant_id": 9,
+      "rarity_id": 2,
+      "name": "Galaxy Zero Point",
+      "image_file": "T_Icon_BR_Creature_Sprite_ZeroPoint_Galaxy_ui_L.webp"
+    },
+    {
+      "id": 36,
+      "family_id": 9,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Zero Point",
+      "image_file": "T_Icon_BR_Creature_Sprite_ZeroPoint_Gold_ui_L.webp"
+    },
+    {
+      "id": 37,
+      "family_id": 10,
+      "variant_id": 1,
+      "rarity_id": 3,
+      "name": "Demon",
+      "image_file": "T_Icon_BR_RedDemon_Default_L.webp"
+    },
+    {
+      "id": 38,
+      "family_id": 10,
+      "variant_id": 8,
+      "rarity_id": 2,
+      "name": "Gummy Demon",
+      "image_file": "T_Icon_BR_RedDemon_Candy_L.webp"
+    },
+    {
+      "id": 39,
+      "family_id": 10,
+      "variant_id": 9,
+      "rarity_id": 2,
+      "name": "Galaxy Demon",
+      "image_file": "T_Icon_BR_RedDemon_Galaxy_L.webp"
+    },
+    {
+      "id": 40,
+      "family_id": 10,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Demon",
+      "image_file": "T_Icon_BR_RedDemon_Gold_L.webp"
+    },
+    {
+      "id": 41,
+      "family_id": 11,
+      "variant_id": 1,
+      "rarity_id": 5,
+      "name": "Burnt Peanut",
+      "image_file": "T_Icon_BR_Creature_Sprite_BurntPeanut_ui_L.webp"
+    },
+    {
+      "id": 42,
+      "family_id": 17,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Air",
+      "image_file": "T_Icon_BR_Air_Gold_L.webp"
+    },
+    {
+      "id": 43,
+      "family_id": 1,
+      "variant_id": 10,
+      "rarity_id": 2,
+      "name": "Holofoil Water",
+      "image_file": "T_Icon_BR_Creature_Sprite_Water_Holofoil_ui_L.webp"
+    },
+    {
+      "id": 44,
+      "family_id": 4,
+      "variant_id": 12,
+      "rarity_id": 2,
+      "name": "Gem Duck",
+      "image_file": "T_Icon_BR_Duck_Gem_L.webp"
+    },
+    {
+      "id": 45,
+      "family_id": 2,
+      "variant_id": 12,
+      "rarity_id": 2,
+      "name": "Gem Earth",
+      "image_file": "T_Icon_BR_Creature_Sprite_Earth_Gem_ui_L.webp"
+    },
+    {
+      "id": 46,
+      "family_id": 3,
+      "variant_id": 10,
+      "rarity_id": 2,
+      "name": "Holofoil Fire",
+      "image_file": "T_Icon_BR_Creature_Sprite_Fire_Holofoil_ui_L.webp"
+    },
+    {
+      "id": 47,
+      "family_id": 10,
+      "variant_id": 12,
+      "rarity_id": 2,
+      "name": "Gem Demon",
+      "image_file": "T_Icon_BR_RedDemon_Gem_L.webp"
+    },
+    {
+      "id": 48,
+      "family_id": 5,
+      "variant_id": 10,
+      "rarity_id": 2,
+      "name": "Holofoil Ghost",
+      "image_file": "T_Icon_BR_Creature_Sprite_Ghost_Holo_L.webp"
+    },
+    {
+      "id": 49,
+      "family_id": 12,
+      "variant_id": 1,
+      "rarity_id": 4,
+      "name": "Boss",
+      "image_file": "T_Icon_BR_Creature_Sprite_Boss_ui_L.webp"
+    },
+    {
+      "id": 50,
+      "family_id": 12,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Boss",
+      "image_file": "T_Icon_BR_Creature_Sprite_Boss_Gold_ui_L.webp"
+    },
+    {
+      "id": 51,
+      "family_id": 12,
+      "variant_id": 8,
+      "rarity_id": 2,
+      "name": "Gummy Boss",
+      "image_file": "T_Icon_BR_Creature_Sprite_Boss_Candy_ui_L.webp"
+    },
+    {
+      "id": 52,
+      "family_id": 12,
+      "variant_id": 9,
+      "rarity_id": 2,
+      "name": "Galaxy Boss",
+      "image_file": "T_Icon_BR_Creature_Sprite_Boss_Galaxy_ui_L.webp"
+    },
+    {
+      "id": 53,
+      "family_id": 13,
+      "variant_id": 1,
+      "rarity_id": 4,
+      "name": "Seven",
+      "image_file": "T_Icon_BR_Creature_Sprite_Seven_ui_L.webp"
+    },
+    {
+      "id": 54,
+      "family_id": 13,
+      "variant_id": 8,
+      "rarity_id": 2,
+      "name": "Gummy Seven",
+      "image_file": "T_Icon_BR_Creature_Sprite_Seven_Candy_ui_L.webp"
+    },
+    {
+      "id": 55,
+      "family_id": 13,
+      "variant_id": 9,
+      "rarity_id": 2,
+      "name": "Galaxy Seven",
+      "image_file": "T_Icon_BR_Creature_Sprite_Seven_Galaxy_ui_L.webp"
+    },
+    {
+      "id": 56,
+      "family_id": 13,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Seven",
+      "image_file": "T_Icon_BR_Creature_Sprite_Seven_Gold_ui_L.webp"
+    },
+    {
+      "id": 57,
+      "family_id": 13,
+      "variant_id": 10,
+      "rarity_id": 2,
+      "name": "Holofoil Seven",
+      "image_file": "T_Icon_BR_Creature_Sprite_Seven_Holofoil_ui_L.webp"
+    },
+    {
+      "id": 58,
+      "family_id": 14,
+      "variant_id": 1,
+      "rarity_id": 1,
+      "name": "Fishy",
+      "image_file": "T_Icon_BR_Creature_Sprite_Fishy_ui_L.webp"
+    },
+    {
+      "id": 59,
+      "family_id": 14,
+      "variant_id": 8,
+      "rarity_id": 2,
+      "name": "Gummy Fishy",
+      "image_file": "T_Icon_BR_Creature_Sprite_Fishy_Candy_ui_L.webp"
+    },
+    {
+      "id": 60,
+      "family_id": 14,
+      "variant_id": 9,
+      "rarity_id": 2,
+      "name": "Galaxy Fishy",
+      "image_file": "T_Icon_BR_Creature_Sprite_Fishy_Galaxy_ui_L.webp"
+    },
+    {
+      "id": 61,
+      "family_id": 14,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Fishy",
+      "image_file": "T_Icon_BR_Creature_Sprite_Fishy_Gold_ui_L.webp"
+    },
+    {
+      "id": 62,
+      "family_id": 15,
+      "variant_id": 1,
+      "rarity_id": 3,
+      "name": "Striker",
+      "image_file": "T_Icon_BR_Creature_Sprite_Soccer_ui_L.webp"
+    },
+    {
+      "id": 63,
+      "family_id": 15,
+      "variant_id": 8,
+      "rarity_id": 2,
+      "name": "Gummy Striker",
+      "image_file": "T_Icon_BR_Creature_Sprite_Soccer_Candy_L.webp"
+    },
+    {
+      "id": 64,
+      "family_id": 15,
+      "variant_id": 9,
+      "rarity_id": 2,
+      "name": "Galaxy Striker",
+      "image_file": "T_Icon_BR_Creature_Sprite_Soccer_Galaxy_L.webp"
+    },
+    {
+      "id": 65,
+      "family_id": 15,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Striker",
+      "image_file": "T_Icon_BR_Creature_Sprite_Soccer_Gold_L.webp"
+    },
+    {
+      "id": 66,
+      "family_id": 15,
+      "variant_id": 10,
+      "rarity_id": 2,
+      "name": "Holofoil Striker",
+      "image_file": "T_Icon_BR_Creature_Sprite_Soccer_Holofoil_L.webp"
+    },
+    {
+      "id": 67,
+      "family_id": 16,
+      "variant_id": 1,
+      "rarity_id": 3,
+      "name": "Aura",
+      "image_file": "T_Icon_BR_Creature_Sprite_Drifter_ui_L.webp"
+    },
+    {
+      "id": 68,
+      "family_id": 16,
+      "variant_id": 8,
+      "rarity_id": 2,
+      "name": "Gummy Aura",
+      "image_file": "T_Icon_BR_Creature_Sprite_Drifter_Candy_ui_L.webp"
+    },
+    {
+      "id": 69,
+      "family_id": 16,
+      "variant_id": 9,
+      "rarity_id": 2,
+      "name": "Galaxy Aura",
+      "image_file": "T_Icon_BR_Creature_Sprite_Drifter_Galaxy_ui_L.webp"
+    },
+    {
+      "id": 70,
+      "family_id": 16,
+      "variant_id": 12,
+      "rarity_id": 2,
+      "name": "Gem Aura",
+      "image_file": "T_Icon_BR_Creature_Sprite_Drifter_Gem_ui_L.webp"
+    },
+    {
+      "id": 71,
+      "family_id": 16,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Aura",
+      "image_file": "T_Icon_BR_Creature_Sprite_Drifter_Gold_ui_L.webp"
+    },
+    {
+      "id": 72,
+      "family_id": 17,
+      "variant_id": 8,
+      "rarity_id": 2,
+      "name": "Gummy Air",
+      "image_file": "T_Icon_BR_Air_Candy_L.webp"
+    },
+    {
+      "id": 73,
+      "family_id": 8,
+      "variant_id": 10,
+      "rarity_id": 2,
+      "name": "Holofoil King",
+      "image_file": "T_Icon_BR_Creature_Sprite_King_Holofoil_ui_L.webp"
+    },
+    {
+      "id": 74,
+      "family_id": 17,
+      "variant_id": 1,
+      "rarity_id": 1,
+      "name": "Air",
+      "image_file": "T_Icon_BR_Air_Default_L.webp"
+    },
+    {
+      "id": 75,
+      "family_id": 17,
+      "variant_id": 9,
+      "rarity_id": 2,
+      "name": "Galaxy Air",
+      "image_file": "T_Icon_BR_Air_Galaxy_L.webp"
+    },
+    {
+      "id": 76,
+      "family_id": 1,
+      "variant_id": 12,
+      "rarity_id": 2,
+      "name": "Gem Water",
+      "image_file": "T_Icon_BR_Creature_Sprite_Water_Gem_ui_L.webp"
+    },
+    {
+      "id": 77,
+      "family_id": 17,
+      "variant_id": 10,
+      "rarity_id": 2,
+      "name": "Holofoil Air",
+      "image_file": "T_Icon_BR_Air_Holo_L.webp"
+    },
+    {
+      "id": 78,
+      "family_id": 18,
+      "variant_id": 1,
+      "rarity_id": 5,
+      "name": "Grim",
+      "image_file": "T_Icon_BR_GrimReaper_Default_L.webp"
+    },
+    {
+      "id": 79,
+      "family_id": 18,
+      "variant_id": 8,
+      "rarity_id": 2,
+      "name": "Gummy Grim",
+      "image_file": "T_Icon_BR_GrimReaper_Candy_L.webp"
+    },
+    {
+      "id": 80,
+      "family_id": 18,
+      "variant_id": 9,
+      "rarity_id": 2,
+      "name": "Galaxy Grim",
+      "image_file": "T_Icon_BR_GrimReaper_Galaxy_L.webp"
+    },
+    {
+      "id": 81,
+      "family_id": 18,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Grim",
+      "image_file": "T_Icon_BR_GrimReaper_Gold_L.webp"
+    },
+    {
+      "id": 82,
+      "family_id": 9,
+      "variant_id": 12,
+      "rarity_id": 2,
+      "name": "Gem Zero Point",
+      "image_file": "T_Icon_BR_Creature_Sprite_ZeroPoint_Gem_ui_L.webp"
+    },
+    {
+      "id": 83,
+      "family_id": 19,
+      "variant_id": 1,
+      "rarity_id": 1,
+      "name": "Overshield",
+      "image_file": "T_Icon_BR_Creature_Sprite_Overshield_L.webp"
+    },
+    {
+      "id": 84,
+      "family_id": 1,
+      "variant_id": 11,
+      "rarity_id": 2,
+      "name": "Quack Water",
+      "image_file": "T_Icon_BR_Creature_Sprite_Water_Quack_ui_L.webp"
+    },
+    {
+      "id": 85,
+      "family_id": 19,
+      "variant_id": 3,
+      "rarity_id": 2,
+      "name": "Cheat Master Overshield",
+      "image_file": "T_Icon_BR_Creature_Sprite_Overshield_Cheatmaster_L.webp"
+    },
+    {
+      "id": 86,
+      "family_id": 2,
+      "variant_id": 7,
+      "rarity_id": 2,
+      "name": "Cube Earth",
+      "image_file": "T_Icon_BR_Creature_Sprite_Earth_Cube_ui_L.webp"
+    },
+    {
+      "id": 87,
+      "family_id": 2,
+      "variant_id": 11,
+      "rarity_id": 2,
+      "name": "Quack Earth",
+      "image_file": "T_Icon_BR_Creature_Sprite_Earth_Quack_ui_L.webp"
+    },
+    {
+      "id": 88,
+      "family_id": 19,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Overshield",
+      "image_file": "T_Icon_BR_Creature_Sprite_Overshield_Gold_L.webp"
+    },
+    {
+      "id": 89,
+      "family_id": 3,
+      "variant_id": 7,
+      "rarity_id": 2,
+      "name": "Cube Fire",
+      "image_file": "T_Icon_BR_Creature_Sprite_Fire_Cube_ui_L.webp"
+    },
+    {
+      "id": 90,
+      "family_id": 3,
+      "variant_id": 11,
+      "rarity_id": 2,
+      "name": "Quack Fire",
+      "image_file": "T_Icon_BR_Creature_Sprite_Fire_Quack_ui_L.webp"
+    },
+    {
+      "id": 91,
+      "family_id": 19,
+      "variant_id": 4,
+      "rarity_id": 2,
+      "name": "Loot Hacker Overshield",
+      "image_file": "T_Icon_BR_Creature_Sprite_Overshield_Hacker_L.webp"
+    },
+    {
+      "id": 92,
+      "family_id": 20,
+      "variant_id": 1,
+      "rarity_id": 1,
+      "name": "Mega Man",
+      "image_file": "T_Icon_BR_Creature_Sprite_ImprovedSlide_L.webp"
+    },
+    {
+      "id": 93,
+      "family_id": 21,
+      "variant_id": 1,
+      "rarity_id": 4,
+      "name": "X-Ray",
+      "image_file": "T_Icon_BR_Creature_Sprite_WinnerB_L.webp"
+    },
+    {
+      "id": 94,
+      "family_id": 21,
+      "variant_id": 3,
+      "rarity_id": 2,
+      "name": "Cheatmaster X-Ray",
+      "image_file": "T_Icon_BR_Creature_Sprite_WinnerB_Cheatmaster_L.webp"
+    },
+    {
+      "id": 95,
+      "family_id": 21,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold X-Ray",
+      "image_file": "T_Icon_BR_Creature_Sprite_WinnerB_Gold_L.webp"
+    },
+    {
+      "id": 96,
+      "family_id": 21,
+      "variant_id": 4,
+      "rarity_id": 2,
+      "name": "Loot Hacker X-Ray",
+      "image_file": "T_Icon_BR_Creature_Sprite_WinnerB_Hacker_L.webp"
+    },
+    {
+      "id": 97,
+      "family_id": 22,
+      "variant_id": 1,
+      "rarity_id": 1,
+      "name": "Onigiri",
+      "image_file": "T_Icon_BR_Creature_Sprite_WinnerC_L.webp"
+    },
+    {
+      "id": 98,
+      "family_id": 22,
+      "variant_id": 3,
+      "rarity_id": 2,
+      "name": "Cheatmaster Onigiri",
+      "image_file": "T_Icon_BR_Creature_Sprite_WinnerC_Cheatmaster_L.webp"
+    },
+    {
+      "id": 99,
+      "family_id": 6,
+      "variant_id": 7,
+      "rarity_id": 2,
+      "name": "Cube Dream",
+      "image_file": "T_Icon_BR_Creature_Sprite_Sleepy_Cube_ui_L.webp"
+    },
+    {
+      "id": 100,
+      "family_id": 22,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Onigiri",
+      "image_file": "T_Icon_BR_Creature_Sprite_WinnerC_Gold_L.webp"
+    },
+    {
+      "id": 101,
+      "family_id": 22,
+      "variant_id": 4,
+      "rarity_id": 2,
+      "name": "Loot Hacker Onigiri",
+      "image_file": "T_Icon_BR_Creature_Sprite_WinnerC_Hacker_L.webp"
+    },
+    {
+      "id": 102,
+      "family_id": 34,
+      "variant_id": 4,
+      "rarity_id": 2,
+      "name": "Loot Hacker Jackrabbit",
+      "image_file": "T_Icon_BR_Creature_Sprite_DoubleJump_Hacker_L.webp"
+    },
+    {
+      "id": 103,
+      "family_id": 37,
+      "variant_id": 4,
+      "rarity_id": 2,
+      "name": "Loot Hacker Tails",
+      "image_file": "T_Icon_BR_Creature_Sprite_NarrowFlea_Monkey_Hacker_L.webp"
+    },
+    {
+      "id": 104,
+      "family_id": 35,
+      "variant_id": 4,
+      "rarity_id": 2,
+      "name": "Loot Hacker Shadow",
+      "image_file": "T_Icon_BR_Creature_Sprite_ReloadOverTime_Hacker_L.webp"
+    },
+    {
+      "id": 105,
+      "family_id": 36,
+      "variant_id": 4,
+      "rarity_id": 2,
+      "name": "Loot Hacker Bushranger",
+      "image_file": "T_Icon_BR_Creature_Sprite_BushRanger_Hacker_L.webp"
+    },
+    {
+      "id": 106,
+      "family_id": 7,
+      "variant_id": 7,
+      "rarity_id": 2,
+      "name": "Cube Punk",
+      "image_file": "T_Icon_BR_Creature_Sprite_Punk_Cube_ui_L.webp"
+    },
+    {
+      "id": 107,
+      "family_id": 38,
+      "variant_id": 4,
+      "rarity_id": 2,
+      "name": "Loot Hacker Killswitch",
+      "image_file": "T_Icon_BR_Creature_Sprite_Killswitch_Hacker_L.webp"
+    },
+    {
+      "id": 108,
+      "family_id": 39,
+      "variant_id": 4,
+      "rarity_id": 2,
+      "name": "Loot Hacker Adventure",
+      "image_file": "T_Icon_BR_Creature_Sprite_Dwarf_Hacker_L.webp"
+    },
+    {
+      "id": 109,
+      "family_id": 40,
+      "variant_id": 4,
+      "rarity_id": 2,
+      "name": "Loot Hacker Klombo",
+      "image_file": "T_Icon_BR_Creature_Sprite_Klombo_Hacker_L.webp"
+    },
+    {
+      "id": 110,
+      "family_id": 41,
+      "variant_id": 4,
+      "rarity_id": 2,
+      "name": "Loot Hacker Jonesy",
+      "image_file": "T_Icon_BR_Creature_Sprite_Jonesy_Hacker_L.webp"
+    },
+    {
+      "id": 111,
+      "family_id": 9,
+      "variant_id": 10,
+      "rarity_id": 2,
+      "name": "Holofoil Zero Point",
+      "image_file": "T_Icon_BR_Creature_Sprite_ZeroPoint_Holofoil_ui_L.webp"
+    },
+    {
+      "id": 112,
+      "family_id": 9,
+      "variant_id": 7,
+      "rarity_id": 2,
+      "name": "Cube Zero Point",
+      "image_file": "T_Icon_BR_Creature_Sprite_ZeroPoint_Cube_ui_L.webp"
+    },
+    {
+      "id": 113,
+      "family_id": 9,
+      "variant_id": 11,
+      "rarity_id": 2,
+      "name": "Quack Zero Point",
+      "image_file": "T_Icon_BR_Creature_Sprite_ZeroPoint_Quack_ui_L.webp"
+    },
+    {
+      "id": 114,
+      "family_id": 42,
+      "variant_id": 4,
+      "rarity_id": 2,
+      "name": "Loot Hacker Sonic",
+      "image_file": "T_Icon_BR_Creature_Sprite_NarrowFlea_Hacker_L.webp"
+    },
+    {
+      "id": 115,
+      "family_id": 43,
+      "variant_id": 4,
+      "rarity_id": 2,
+      "name": "Loot Hacker Crown",
+      "image_file": "T_Icon_BR_Creature_Sprite_Crown_Hacker_L.webp"
+    },
+    {
+      "id": 116,
+      "family_id": 14,
+      "variant_id": 7,
+      "rarity_id": 2,
+      "name": "Cube Fishy",
+      "image_file": "T_Icon_BR_Creature_Sprite_Fishy_Cube_L.webp"
+    },
+    {
+      "id": 117,
+      "family_id": 44,
+      "variant_id": 4,
+      "rarity_id": 2,
+      "name": "Loot Hacker 8-Bit",
+      "image_file": "T_Icon_BR_Creature_Sprite_EightBitBlaster_Hacker_L.webp"
+    },
+    {
+      "id": 118,
+      "family_id": 45,
+      "variant_id": 4,
+      "rarity_id": 2,
+      "name": "Loot Hacker Storm Scout",
+      "image_file": "T_Icon_BR_Creature_Sprite_StormScout_Hacker_L.webp"
+    },
+    {
+      "id": 119,
+      "family_id": 34,
+      "variant_id": 5,
+      "rarity_id": 2,
+      "name": "Bounty Hunter Jackrabbit",
+      "image_file": "T_Icon_BR_Creature_Sprite_DoubleJump_BountyHunter_L.webp"
+    },
+    {
+      "id": 120,
+      "family_id": 23,
+      "variant_id": 1,
+      "rarity_id": 4,
+      "name": "Blinky",
+      "image_file": "T_Icon_BR_Creature_Sprite_GhostDamage_L.webp"
+    },
+    {
+      "id": 121,
+      "family_id": 23,
+      "variant_id": 3,
+      "rarity_id": 2,
+      "name": "Cheat Master Blinky",
+      "image_file": "T_Icon_BR_Creature_Sprite_GhostDamage_Cheatmaster_L.webp"
+    },
+    {
+      "id": 122,
+      "family_id": 23,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Blinky",
+      "image_file": "T_Icon_BR_Creature_Sprite_GhostDamage_Gold_L.webp"
+    },
+    {
+      "id": 123,
+      "family_id": 23,
+      "variant_id": 4,
+      "rarity_id": 2,
+      "name": "Loot Hacker Blinky",
+      "image_file": "T_Icon_BR_Creature_Sprite_GhostDamage_Hacker_L.webp"
+    },
+    {
+      "id": 124,
+      "family_id": 23,
+      "variant_id": 5,
+      "rarity_id": 2,
+      "name": "Bounty Hunter Blinky",
+      "image_file": "T_Icon_BR_Creature_Sprite_GhostDamage_BountyHunter_L.webp"
+    },
+    {
+      "id": 125,
+      "family_id": 19,
+      "variant_id": 5,
+      "rarity_id": 2,
+      "name": "Bounty Hunter Overshield",
+      "image_file": "T_Icon_BR_Creature_Sprite_Overshield_BountyHunter_L.webp"
+    },
+    {
+      "id": 126,
+      "family_id": 12,
+      "variant_id": 7,
+      "rarity_id": 2,
+      "name": "Cube Boss",
+      "image_file": "T_Icon_BR_Creature_Sprite_Boss_Cube_ui_L.webp"
+    },
+    {
+      "id": 127,
+      "family_id": 24,
+      "variant_id": 1,
+      "rarity_id": 1,
+      "name": "Birthday",
+      "image_file": "T_Icon_BR_Creature_Sprite_Birthday_L.webp"
+    },
+    {
+      "id": 128,
+      "family_id": 18,
+      "variant_id": 12,
+      "rarity_id": 2,
+      "name": "Gem Grim",
+      "image_file": "T_Icon_BR_GrimReaper_Gem_L.webp"
+    },
+    {
+      "id": 129,
+      "family_id": 18,
+      "variant_id": 10,
+      "rarity_id": 2,
+      "name": "Holofoil Grim",
+      "image_file": "T_Icon_BR_GrimReaper_Holofoil_L.webp"
+    },
+    {
+      "id": 130,
+      "family_id": 18,
+      "variant_id": 7,
+      "rarity_id": 2,
+      "name": "Cube Grim",
+      "image_file": "T_Icon_BR_GrimReaper_Cube_L.webp"
+    },
+    {
+      "id": 131,
+      "family_id": 24,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Birthday",
+      "image_file": "T_Icon_BR_Creature_Sprite_Birthday_Gold_L.webp"
+    },
+    {
+      "id": 132,
+      "family_id": 24,
+      "variant_id": 3,
+      "rarity_id": 2,
+      "name": "Cheat Master Birthday",
+      "image_file": "T_Icon_BR_Creature_Sprite_Birthday_Cheatmaster_L.webp"
+    },
+    {
+      "id": 133,
+      "family_id": 24,
+      "variant_id": 4,
+      "rarity_id": 2,
+      "name": "Loot Hacker Birthday",
+      "image_file": "T_Icon_BR_Creature_Sprite_Birthday_Hacker_L.webp"
+    },
+    {
+      "id": 134,
+      "family_id": 24,
+      "variant_id": 5,
+      "rarity_id": 2,
+      "name": "Bounty Hunter Birthday",
+      "image_file": "T_Icon_BR_Creature_Sprite_Birthday_BountyHunter_L.webp"
+    },
+    {
+      "id": 135,
+      "family_id": 25,
+      "variant_id": 1,
+      "rarity_id": 4,
+      "name": "Crash Bandicoot",
+      "image_file": "T_Icon_BR_Creature_Sprite_BodySlam_L.webp"
+    },
+    {
+      "id": 136,
+      "family_id": 25,
+      "variant_id": 3,
+      "rarity_id": 2,
+      "name": "Cheat Master Crash Bandicoot",
+      "image_file": "T_Icon_BR_Creature_Sprite_BodySlam_Cheatmaster_L.webp"
+    },
+    {
+      "id": 137,
+      "family_id": 25,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Crash Bandicoot",
+      "image_file": "T_Icon_BR_Creature_Sprite_BodySlam_Gold_L.webp"
+    },
+    {
+      "id": 138,
+      "family_id": 26,
+      "variant_id": 1,
+      "rarity_id": 5,
+      "name": "John Wick",
+      "image_file": "T_Icon_Reload_FillerGrunt_icon_L.webp"
+    },
+    {
+      "id": 139,
+      "family_id": 27,
+      "variant_id": 1,
+      "rarity_id": 5,
+      "name": "Batman",
+      "image_file": "T_Icon_BR_FossilMeal_Default_L.webp"
+    },
+    {
+      "id": 140,
+      "family_id": 27,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Batman",
+      "image_file": "T_Icon_BR_FossilMeal_Gold_L.webp"
+    },
+    {
+      "id": 141,
+      "family_id": 27,
+      "variant_id": 8,
+      "rarity_id": 2,
+      "name": "Gummy Batman",
+      "image_file": "T_Icon_BR_FossilMeal_Candy_L.webp"
+    },
+    {
+      "id": 142,
+      "family_id": 27,
+      "variant_id": 9,
+      "rarity_id": 2,
+      "name": "Galaxy Batman",
+      "image_file": "T_Icon_BR_FossilMeal_Galaxy_L.webp"
+    },
+    {
+      "id": 143,
+      "family_id": 25,
+      "variant_id": 4,
+      "rarity_id": 2,
+      "name": "Loot Hacker Crash Bandicoot",
+      "image_file": "T_Icon_BR_Creature_Sprite_BodySlam_Hacker_L.webp"
+    },
+    {
+      "id": 144,
+      "family_id": 25,
+      "variant_id": 5,
+      "rarity_id": 2,
+      "name": "Bounty Hunter Body Slam",
+      "image_file": "T_Icon_BR_Creature_Sprite_BodySlam_BountyHunter_L.webp"
+    },
+    {
+      "id": 145,
+      "family_id": 27,
+      "variant_id": 10,
+      "rarity_id": 2,
+      "name": "Holofoil Batman",
+      "image_file": "T_Icon_BR_FossilMeal_Holofoil_L.webp"
+    },
+    {
+      "id": 146,
+      "family_id": 27,
+      "variant_id": 7,
+      "rarity_id": 2,
+      "name": "Cube Batman",
+      "image_file": "T_Icon_BR_FossilMeal_Cube_L.webp"
+    },
+    {
+      "id": 147,
+      "family_id": 28,
+      "variant_id": 1,
+      "rarity_id": 3,
+      "name": "Pond",
+      "image_file": "T_Icon_BR_Creature_Sprite_WinnerA_L.webp"
+    },
+    {
+      "id": 148,
+      "family_id": 29,
+      "variant_id": 1,
+      "rarity_id": 5,
+      "name": "Pollo",
+      "image_file": "T_Icon_BR_CompanyStargazer_Default_L.webp"
+    },
+    {
+      "id": 149,
+      "family_id": 30,
+      "variant_id": 1,
+      "rarity_id": 5,
+      "name": "Vini Jr.",
+      "image_file": "T_Icon_BR_CokeParmesan_Default_L.webp"
+    },
+    {
+      "id": 150,
+      "family_id": 31,
+      "variant_id": 1,
+      "rarity_id": 5,
+      "name": "Ironmouse",
+      "image_file": "T_Icon_BR_PedicureAntacid_L.webp"
+    },
+    {
+      "id": 151,
+      "family_id": 32,
+      "variant_id": 1,
+      "rarity_id": 4,
+      "name": "Llama",
+      "image_file": "T_Icon_BR_Creature_Sprite_Llama_ui_L.webp"
+    },
+    {
+      "id": 152,
+      "family_id": 32,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Llama",
+      "image_file": "T_Icon_BR_Creature_Sprite_Llama_Gold_ui_L.webp"
+    },
+    {
+      "id": 153,
+      "family_id": 32,
+      "variant_id": 8,
+      "rarity_id": 2,
+      "name": "Gummy Llama",
+      "image_file": "T_Icon_BR_Creature_Sprite_Llama_Candy_ui_L.webp"
+    },
+    {
+      "id": 154,
+      "family_id": 32,
+      "variant_id": 9,
+      "rarity_id": 2,
+      "name": "Galaxy Llama",
+      "image_file": "T_Icon_BR_Creature_Sprite_Llama_Galaxy_ui_L.webp"
+    },
+    {
+      "id": 155,
+      "family_id": 32,
+      "variant_id": 12,
+      "rarity_id": 2,
+      "name": "Gem Llama",
+      "image_file": "T_Icon_BR_Creature_Sprite_Llama_Gem_ui_L.webp"
+    },
+    {
+      "id": 156,
+      "family_id": 33,
+      "variant_id": 1,
+      "rarity_id": 4,
+      "name": "Peeky Peely",
+      "image_file": "T_Icon_BR_Creature_Sprite_Peely_ui_L.webp"
+    },
+    {
+      "id": 157,
+      "family_id": 33,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Peeky Peely",
+      "image_file": "T_Icon_BR_Creature_Sprite_Peely_Gold_ui_L.webp"
+    },
+    {
+      "id": 158,
+      "family_id": 33,
+      "variant_id": 8,
+      "rarity_id": 2,
+      "name": "Gummy Peeky Peely",
+      "image_file": "T_Icon_BR_Creature_Sprite_Peely_Candy_ui_L.webp"
+    },
+    {
+      "id": 159,
+      "family_id": 33,
+      "variant_id": 9,
+      "rarity_id": 2,
+      "name": "Galaxy Peeky Peely",
+      "image_file": "T_Icon_BR_Creature_Sprite_Peely_Galaxy_ui_L.webp"
+    },
+    {
+      "id": 160,
+      "family_id": 33,
+      "variant_id": 10,
+      "rarity_id": 2,
+      "name": "Holofoil Peeky Peely",
+      "image_file": "T_Icon_BR_Creature_Sprite_Peely_Holofoil_ui_L.webp"
+    },
+    {
+      "id": 161,
+      "family_id": 34,
+      "variant_id": 1,
+      "rarity_id": 4,
+      "name": "Jackrabbit",
+      "image_file": "T_Icon_BR_Creature_Sprite_JazzJackrabbit_L.webp"
+    },
+    {
+      "id": 162,
+      "family_id": 34,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Jackrabbit",
+      "image_file": "T_Icon_BR_Creature_Sprite_JazzJackrabbit_Gold_L.webp"
+    },
+    {
+      "id": 163,
+      "family_id": 34,
+      "variant_id": 3,
+      "rarity_id": 2,
+      "name": "Cheat Master Jackrabbit",
+      "image_file": "T_Icon_BR_Creature_Sprite_JazzJackrabbit_Cheatmaster_L.webp"
+    },
+    {
+      "id": 164,
+      "family_id": 35,
+      "variant_id": 1,
+      "rarity_id": 3,
+      "name": "Shadow",
+      "image_file": "T_Icon_BR_Creature_Sprite_NarrowFlea_Scribe_L.webp"
+    },
+    {
+      "id": 165,
+      "family_id": 35,
+      "variant_id": 3,
+      "rarity_id": 2,
+      "name": "Cheat Master Shadow",
+      "image_file": "T_Icon_BR_Creature_Sprite_NarrowFlea_Scribe_Cheatmaster_L.webp"
+    },
+    {
+      "id": 166,
+      "family_id": 35,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Shadow",
+      "image_file": "T_Icon_BR_Creature_Sprite_NarrowFlea_Scribe_Gold_L.webp"
+    },
+    {
+      "id": 167,
+      "family_id": 36,
+      "variant_id": 1,
+      "rarity_id": 1,
+      "name": "Bush",
+      "image_file": "T_Icon_BR_Creature_Sprite_BushRanger_L.webp"
+    },
+    {
+      "id": 168,
+      "family_id": 36,
+      "variant_id": 3,
+      "rarity_id": 2,
+      "name": "Cheat Master Bush",
+      "image_file": "T_Icon_BR_Creature_Sprite_BushRanger_Cheatmaster_L.webp"
+    },
+    {
+      "id": 169,
+      "family_id": 36,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Bush",
+      "image_file": "T_Icon_BR_Creature_Sprite_BushRanger_Gold_L.webp"
+    },
+    {
+      "id": 170,
+      "family_id": 37,
+      "variant_id": 1,
+      "rarity_id": 3,
+      "name": "Tails",
+      "image_file": "T_Icon_BR_Creature_Sprite_NarrowFlea_Monkey_L.webp"
+    },
+    {
+      "id": 171,
+      "family_id": 37,
+      "variant_id": 3,
+      "rarity_id": 2,
+      "name": "Cheat Master Tails",
+      "image_file": "T_Icon_BR_Creature_Sprite_NarrowFlea_Monkey_Cheatmaster_L.webp"
+    },
+    {
+      "id": 172,
+      "family_id": 37,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Tails",
+      "image_file": "T_Icon_BR_Creature_Sprite_NarrowFlea_Monkey_Gold_L.webp"
+    },
+    {
+      "id": 173,
+      "family_id": 38,
+      "variant_id": 1,
+      "rarity_id": 4,
+      "name": "Killswitch",
+      "image_file": "T_Icon_BR_Creature_Sprite_Killswitch_L.webp"
+    },
+    {
+      "id": 174,
+      "family_id": 38,
+      "variant_id": 3,
+      "rarity_id": 2,
+      "name": "Cheat Master Killswitch",
+      "image_file": "T_Icon_BR_Creature_Sprite_Killswitch_Cheatmaster_L.webp"
+    },
+    {
+      "id": 175,
+      "family_id": 38,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Killswitch",
+      "image_file": "T_Icon_BR_Creature_Sprite_Killswitch_Gold_L.webp"
+    },
+    {
+      "id": 176,
+      "family_id": 39,
+      "variant_id": 1,
+      "rarity_id": 1,
+      "name": "Adventure",
+      "image_file": "T_Icon_BR_Creature_Sprite_Dwarf_L.webp"
+    },
+    {
+      "id": 177,
+      "family_id": 39,
+      "variant_id": 3,
+      "rarity_id": 2,
+      "name": "Cheat Master Adventure",
+      "image_file": "T_Icon_BR_Creature_Sprite_Dwarf_Cheatmaster_L.webp"
+    },
+    {
+      "id": 178,
+      "family_id": 39,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Adventure",
+      "image_file": "T_Icon_BR_Creature_Sprite_Dwarf_Gold_L.webp"
+    },
+    {
+      "id": 179,
+      "family_id": 40,
+      "variant_id": 1,
+      "rarity_id": 5,
+      "name": "Klombo",
+      "image_file": "T_Icon_BR_Creature_Sprite_Klombo_L.webp"
+    },
+    {
+      "id": 180,
+      "family_id": 40,
+      "variant_id": 3,
+      "rarity_id": 2,
+      "name": "Cheat Master Klombo",
+      "image_file": "T_Icon_BR_Creature_Sprite_Klombo_Cheatmaster_L.webp"
+    },
+    {
+      "id": 181,
+      "family_id": 40,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Klombo",
+      "image_file": "T_Icon_BR_Creature_Sprite_Klombo_Gold_L.webp"
+    },
+    {
+      "id": 182,
+      "family_id": 41,
+      "variant_id": 1,
+      "rarity_id": 1,
+      "name": "Jonesy",
+      "image_file": "T_Icon_BR_Creature_Sprite_Jonesy_L.webp"
+    },
+    {
+      "id": 183,
+      "family_id": 41,
+      "variant_id": 3,
+      "rarity_id": 2,
+      "name": "Cheat Master Jonesy",
+      "image_file": "T_Icon_BR_Creature_Sprite_Jonesy_Cheatmaster_L.webp"
+    },
+    {
+      "id": 184,
+      "family_id": 41,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Jonesy",
+      "image_file": "T_Icon_BR_Creature_Sprite_Jonesy_Gold_L.webp"
+    },
+    {
+      "id": 185,
+      "family_id": 42,
+      "variant_id": 1,
+      "rarity_id": 3,
+      "name": "Sonic",
+      "image_file": "T_Icon_BR_Creature_Sprite_NarrowFlea_Obsidian_L.webp"
+    },
+    {
+      "id": 186,
+      "family_id": 42,
+      "variant_id": 3,
+      "rarity_id": 2,
+      "name": "Cheat Master Sonic",
+      "image_file": "T_Icon_BR_Creature_Sprite_NarrowFlea_Obsidian_Cheatmaster_L.webp"
+    },
+    {
+      "id": 187,
+      "family_id": 42,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Sonic",
+      "image_file": "T_Icon_BR_Creature_Sprite_NarrowFlea_Obsidian_Gold_L.webp"
+    },
+    {
+      "id": 188,
+      "family_id": 43,
+      "variant_id": 1,
+      "rarity_id": 5,
+      "name": "Crown",
+      "image_file": "T_Icon_BR_Creature_Sprite_Crown_L.webp"
+    },
+    {
+      "id": 189,
+      "family_id": 43,
+      "variant_id": 3,
+      "rarity_id": 2,
+      "name": "Cheat Master Crown",
+      "image_file": "T_Icon_BR_Creature_Sprite_Crown_Cheatmaster_L.webp"
+    },
+    {
+      "id": 190,
+      "family_id": 43,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Crown",
+      "image_file": "T_Icon_BR_Creature_Sprite_Crown_Gold_L.webp"
+    },
+    {
+      "id": 191,
+      "family_id": 44,
+      "variant_id": 1,
+      "rarity_id": 1,
+      "name": "8-Bit",
+      "image_file": "T_Icon_BR_Creature_Sprite_EightBitBlaster_L.webp"
+    },
+    {
+      "id": 192,
+      "family_id": 44,
+      "variant_id": 3,
+      "rarity_id": 2,
+      "name": "Cheat Master 8-Bit",
+      "image_file": "T_Icon_BR_Creature_Sprite_EightBitBlaster_Cheatmaster_L.webp"
+    },
+    {
+      "id": 193,
+      "family_id": 44,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold 8-Bit",
+      "image_file": "T_Icon_BR_Creature_Sprite_EightBitBlaster_Gold_L.webp"
+    },
+    {
+      "id": 194,
+      "family_id": 45,
+      "variant_id": 1,
+      "rarity_id": 1,
+      "name": "Storm Scout",
+      "image_file": "T_Icon_BR_Creature_Sprite_StormScout_L.webp"
+    },
+    {
+      "id": 195,
+      "family_id": 45,
+      "variant_id": 3,
+      "rarity_id": 2,
+      "name": "Cheat Master Storm Scout",
+      "image_file": "T_Icon_BR_Creature_Sprite_StormScout_Cheatmaster_L.webp"
+    },
+    {
+      "id": 196,
+      "family_id": 45,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Storm Scout",
+      "image_file": "T_Icon_BR_Creature_Sprite_StormScout_Gold_L.webp"
+    },
+    {
+      "id": 197,
+      "family_id": 28,
+      "variant_id": 3,
+      "rarity_id": 2,
+      "name": "Cheat Master Pond",
+      "image_file": "T_Icon_BR_Creature_Sprite_WinnerA_Cheatmaster_L.webp"
+    },
+    {
+      "id": 198,
+      "family_id": 28,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Pond",
+      "image_file": "T_Icon_BR_Creature_Sprite_WinnerA_Gold_L.webp"
+    },
+    {
+      "id": 199,
+      "family_id": 28,
+      "variant_id": 4,
+      "rarity_id": 2,
+      "name": "Loot Hacker Pond",
+      "image_file": "T_Icon_BR_Creature_Sprite_WinnerA_Hacker_L.webp"
+    },
+    {
+      "id": 200,
+      "family_id": 28,
+      "variant_id": 5,
+      "rarity_id": 2,
+      "name": "Bounty Hunter Pond",
+      "image_file": "T_Icon_BR_Creature_Sprite_WinnerA_BountyHunter_L.webp"
+    },
+    {
+      "id": 201,
+      "family_id": 21,
+      "variant_id": 5,
+      "rarity_id": 2,
+      "name": "Bounty Hunter X-Ray",
+      "image_file": "T_Icon_BR_Creature_Sprite_WinnerB_BountyHunter_L.webp"
+    },
+    {
+      "id": 202,
+      "family_id": 22,
+      "variant_id": 5,
+      "rarity_id": 2,
+      "name": "Bounty Hunter Onigiri",
+      "image_file": "T_Icon_BR_Creature_Sprite_WinnerC_BountyHunter_L.webp"
+    },
+    {
+      "id": 203,
+      "family_id": 37,
+      "variant_id": 5,
+      "rarity_id": 2,
+      "name": "Bounty Hunter Tails",
+      "image_file": "T_Icon_BR_Creature_Sprite_NarrowFleaMonkey_BountyHunter_L.webp"
+    },
+    {
+      "id": 204,
+      "family_id": 35,
+      "variant_id": 5,
+      "rarity_id": 2,
+      "name": "Bounty Hunter Shadow",
+      "image_file": "T_Icon_BR_Creature_Sprite_ReloadOverTime_BountyHunter_L.webp"
+    },
+    {
+      "id": 205,
+      "family_id": 36,
+      "variant_id": 5,
+      "rarity_id": 2,
+      "name": "Bounty Hunter Bush",
+      "image_file": "T_Icon_BR_Creature_Sprite_BushRanger_BountyHunter_L.webp"
+    },
+    {
+      "id": 206,
+      "family_id": 38,
+      "variant_id": 5,
+      "rarity_id": 2,
+      "name": "Bounty Hunter Killswitch",
+      "image_file": "T_Icon_BR_Creature_Sprite_Killswitch_BountyHunter_L.webp"
+    },
+    {
+      "id": 207,
+      "family_id": 39,
+      "variant_id": 5,
+      "rarity_id": 2,
+      "name": "Bounty Hunter Adventure",
+      "image_file": "T_Icon_BR_Creature_Sprite_Dwarf_BountyHunter_L.webp"
+    },
+    {
+      "id": 208,
+      "family_id": 40,
+      "variant_id": 5,
+      "rarity_id": 2,
+      "name": "Bounty Hunter Klombo",
+      "image_file": "T_Icon_BR_Creature_Sprite_Klombo_BountyHunter_L.webp"
+    },
+    {
+      "id": 209,
+      "family_id": 41,
+      "variant_id": 5,
+      "rarity_id": 2,
+      "name": "Bounty Hunter Jonesy",
+      "image_file": "T_Icon_BR_Creature_Sprite_Jonesy_BountyHunter_L.webp"
+    },
+    {
+      "id": 210,
+      "family_id": 42,
+      "variant_id": 5,
+      "rarity_id": 2,
+      "name": "Bounty Hunter Sonic",
+      "image_file": "T_Icon_BR_Creature_Sprite_NarrowFlea_BountyHunter_L.webp"
+    },
+    {
+      "id": 211,
+      "family_id": 43,
+      "variant_id": 5,
+      "rarity_id": 2,
+      "name": "Bounty Hunter Crown",
+      "image_file": "T_Icon_BR_Creature_Sprite_Crown_BountyHunter_L.webp"
+    },
+    {
+      "id": 212,
+      "family_id": 44,
+      "variant_id": 5,
+      "rarity_id": 2,
+      "name": "Bounty Hunter 8-Bit",
+      "image_file": "T_Icon_BR_Creature_Sprite_8BitBlaster_BountyHunter_L.webp"
+    },
+    {
+      "id": 213,
+      "family_id": 46,
+      "variant_id": 1,
+      "rarity_id": 3,
+      "name": "Morgana",
+      "image_file": "T_Icon_BR_Creature_Sprite_IncreaseHeals_L.webp"
+    },
+    {
+      "id": 214,
+      "family_id": 46,
+      "variant_id": 3,
+      "rarity_id": 2,
+      "name": "Cheat Master Morgana",
+      "image_file": "T_Icon_BR_Creature_Sprite_IncreaseHeals_Cheatmaster_L.webp"
+    },
+    {
+      "id": 215,
+      "family_id": 46,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Morgana",
+      "image_file": "T_Icon_BR_Creature_Sprite_IncreaseHeals_Gold_L.webp"
+    },
+    {
+      "id": 216,
+      "family_id": 46,
+      "variant_id": 4,
+      "rarity_id": 2,
+      "name": "Loot Hacker Morgana",
+      "image_file": "T_Icon_BR_Creature_Sprite_IncreaseHeals_Hacker_L.webp"
+    },
+    {
+      "id": 217,
+      "family_id": 46,
+      "variant_id": 5,
+      "rarity_id": 2,
+      "name": "Bounty Hunter Morgana",
+      "image_file": "T_Icon_BR_Creature_Sprite_IncreaseHeals_BountyHunter_L.webp"
+    },
+    {
+      "id": 218,
+      "family_id": 45,
+      "variant_id": 5,
+      "rarity_id": 2,
+      "name": "Bounty Hunter Storm Scout",
+      "image_file": "T_Icon_BR_Creature_Sprite_StormScout_BountyHunter_L.webp"
+    },
+    {
+      "id": 219,
+      "family_id": 47,
+      "variant_id": 1,
+      "rarity_id": 5,
+      "name": "Spooky Dash",
+      "image_file": "T_Icon_BR_Creature_Sprite_PhaseDash_L.webp"
+    },
+    {
+      "id": 220,
+      "family_id": 47,
+      "variant_id": 3,
+      "rarity_id": 2,
+      "name": "Cheat Master Spooky Dash",
+      "image_file": "T_Icon_BR_Creature_Sprite_PhaseDash_Cheatmaster_L.webp"
+    },
+    {
+      "id": 221,
+      "family_id": 47,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Spooky Dash",
+      "image_file": "T_Icon_BR_Creature_Sprite_PhaseDash_Gold_L.webp"
+    },
+    {
+      "id": 222,
+      "family_id": 47,
+      "variant_id": 4,
+      "rarity_id": 2,
+      "name": "Loot Hacker Spooky Dash",
+      "image_file": "T_Icon_BR_Creature_Sprite_PhaseDash_Hacker_L.webp"
+    },
+    {
+      "id": 223,
+      "family_id": 47,
+      "variant_id": 5,
+      "rarity_id": 2,
+      "name": "Bounty Hunter Spooky Dash",
+      "image_file": "T_Icon_BR_Creature_Sprite_PhaseDash_BountyHunter_L.webp"
+    },
+    {
+      "id": 224,
+      "family_id": 47,
+      "variant_id": 6,
+      "rarity_id": 2,
+      "name": "Trick or Treat Spooky Dash",
+      "image_file": "T_Icon_BR_Creature_Sprite_PhaseDash_TrickTreat_L.webp"
+    },
+    {
+      "id": 225,
+      "family_id": 34,
+      "variant_id": 6,
+      "rarity_id": 2,
+      "name": "Trick or Treat Jackrabbit",
+      "image_file": "T_Icon_BR_Creature_Sprite_DoubleJump_TrickTreat_L.webp"
+    },
+    {
+      "id": 226,
+      "family_id": 48,
+      "variant_id": 1,
+      "rarity_id": 4,
+      "name": "Vampire",
+      "image_file": "T_Icon_BR_Creature_Sprite_HealthSiphon_L.webp"
+    },
+    {
+      "id": 227,
+      "family_id": 48,
+      "variant_id": 3,
+      "rarity_id": 2,
+      "name": "Cheatmaster Vampire",
+      "image_file": "T_Icon_BR_Creature_Sprite_HealthSiphon_Cheatmaster_L.webp"
+    },
+    {
+      "id": 228,
+      "family_id": 48,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Vampire",
+      "image_file": "T_Icon_BR_Creature_Sprite_HealthSiphon_Gold_L.webp"
+    },
+    {
+      "id": 229,
+      "family_id": 48,
+      "variant_id": 4,
+      "rarity_id": 2,
+      "name": "Loot Hacker Vampire",
+      "image_file": "T_Icon_BR_Creature_Sprite_HealthSiphon_Hacker_L.webp"
+    },
+    {
+      "id": 230,
+      "family_id": 48,
+      "variant_id": 5,
+      "rarity_id": 2,
+      "name": "Bounty Hunter Vampire",
+      "image_file": "T_Icon_BR_Creature_Sprite_HealthSiphon_BountyHunter_L.webp"
+    },
+    {
+      "id": 231,
+      "family_id": 48,
+      "variant_id": 6,
+      "rarity_id": 2,
+      "name": "Trick or Treat Vampire",
+      "image_file": "T_Icon_BR_Creature_Sprite_HealthSiphon_TrickTreat_L.webp"
+    },
+    {
+      "id": 232,
+      "family_id": 23,
+      "variant_id": 6,
+      "rarity_id": 2,
+      "name": "Trick or Treat Blinky",
+      "image_file": "T_Icon_BR_Creature_Sprite_GhostDamage_TrickTreat_L.webp"
+    },
+    {
+      "id": 233,
+      "family_id": 19,
+      "variant_id": 6,
+      "rarity_id": 2,
+      "name": "Trick or Treat Overshield",
+      "image_file": "T_Icon_BR_Creature_Sprite_Overshield_TrickTreat_L.webp"
+    },
+    {
+      "id": 234,
+      "family_id": 24,
+      "variant_id": 6,
+      "rarity_id": 2,
+      "name": "Trick or Treat Birthday",
+      "image_file": "T_Icon_BR_Creature_Sprite_Birthday_TrickTreat_L.webp"
+    },
+    {
+      "id": 235,
+      "family_id": 25,
+      "variant_id": 6,
+      "rarity_id": 2,
+      "name": "Trick or Treat Crash Bandicoot",
+      "image_file": "T_Icon_BR_Creature_Sprite_BodySlam_TrickTreat_L.webp"
+    },
+    {
+      "id": 236,
+      "family_id": 28,
+      "variant_id": 6,
+      "rarity_id": 2,
+      "name": "Trick or Treat Pond",
+      "image_file": "T_Icon_BR_Creature_Sprite_WinnerA_TrickTreat_L.webp"
+    },
+    {
+      "id": 237,
+      "family_id": 21,
+      "variant_id": 6,
+      "rarity_id": 2,
+      "name": "Trick or Treat X-Ray",
+      "image_file": "T_Icon_BR_Creature_Sprite_WinnerB_TrickTreat_L.webp"
+    },
+    {
+      "id": 238,
+      "family_id": 37,
+      "variant_id": 6,
+      "rarity_id": 2,
+      "name": "Trick or Treat Tails",
+      "image_file": "T_Icon_BR_Creature_Sprite_NarrowFleaMonkey_TrickTreat_L.webp"
+    },
+    {
+      "id": 239,
+      "family_id": 35,
+      "variant_id": 6,
+      "rarity_id": 2,
+      "name": "Trick or Treat Shadow",
+      "image_file": "T_Icon_BR_Creature_Sprite_ReloadOverTime_TrickTreat_L.webp"
+    },
+    {
+      "id": 240,
+      "family_id": 36,
+      "variant_id": 6,
+      "rarity_id": 2,
+      "name": "Trick or Treat Bushranger",
+      "image_file": "T_Icon_BR_Creature_Sprite_BushRanger_TrickTreat_L.webp"
+    },
+    {
+      "id": 241,
+      "family_id": 38,
+      "variant_id": 6,
+      "rarity_id": 2,
+      "name": "Trick or Treat Killswitch",
+      "image_file": "T_Icon_BR_Creature_Sprite_Killswitch_TrickTreat_L.webp"
+    },
+    {
+      "id": 242,
+      "family_id": 39,
+      "variant_id": 6,
+      "rarity_id": 2,
+      "name": "Trick or Treat Adventure",
+      "image_file": "T_Icon_BR_Creature_Sprite_Dwarf_TrickTreat_L.webp"
+    },
+    {
+      "id": 243,
+      "family_id": 43,
+      "variant_id": 6,
+      "rarity_id": 2,
+      "name": "Trick or Treat Crown",
+      "image_file": "T_Icon_BR_Creature_Sprite_Crown_TrickTreat_L.webp"
+    },
+    {
+      "id": 244,
+      "family_id": 41,
+      "variant_id": 6,
+      "rarity_id": 2,
+      "name": "Trick or Treat Jonesy",
+      "image_file": "T_Icon_BR_Creature_Sprite_Jonesy_TrickTreat_L.webp"
+    },
+    {
+      "id": 245,
+      "family_id": 42,
+      "variant_id": 6,
+      "rarity_id": 2,
+      "name": "Trick or Treat Sonic",
+      "image_file": "T_Icon_BR_Creature_Sprite_NarrowFlea_TrickTreat_L.webp"
+    },
+    {
+      "id": 246,
+      "family_id": 44,
+      "variant_id": 6,
+      "rarity_id": 2,
+      "name": "Trick or Treat 8-Bit",
+      "image_file": "T_Icon_BR_Creature_Sprite_8BitBlaster_TrickTreat_L.webp"
+    },
+    {
+      "id": 247,
+      "family_id": 45,
+      "variant_id": 6,
+      "rarity_id": 2,
+      "name": "Trick or Treat Storm Scout",
+      "image_file": "T_Icon_BR_Creature_Sprite_StormScout_TrickTreat_L.webp"
+    },
+    {
+      "id": 248,
+      "family_id": 46,
+      "variant_id": 6,
+      "rarity_id": 2,
+      "name": "Trick or Treat Morgana",
+      "image_file": "T_Icon_BR_Creature_Sprite_IncreaseHeals_TrickTreat_L.webp"
+    },
+    {
+      "id": 249,
+      "family_id": 49,
+      "variant_id": 1,
+      "rarity_id": 4,
+      "name": "The Deer",
+      "image_file": "T_Icon_BR_Creature_Sprite_IncreasedMelee_L.webp"
+    },
+    {
+      "id": 250,
+      "family_id": 49,
+      "variant_id": 3,
+      "rarity_id": 2,
+      "name": "Cheatmaster The Deer",
+      "image_file": "T_Icon_BR_Creature_Sprite_IncreasedMelee_Cheatmaster_L.webp"
+    },
+    {
+      "id": 251,
+      "family_id": 49,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold The Deer",
+      "image_file": "T_Icon_BR_Creature_Sprite_IncreasedMelee_Gold_L.webp"
+    },
+    {
+      "id": 252,
+      "family_id": 49,
+      "variant_id": 4,
+      "rarity_id": 2,
+      "name": "Loot Hacker The Deer",
+      "image_file": "T_Icon_BR_Creature_Sprite_IncreasedMelee_Hacker_L.webp"
+    },
+    {
+      "id": 253,
+      "family_id": 49,
+      "variant_id": 5,
+      "rarity_id": 2,
+      "name": "Bounty Hunter The Deer",
+      "image_file": "T_Icon_BR_Creature_Sprite_IncreasedMelee_BountyHunter_L.webp"
+    },
+    {
+      "id": 254,
+      "family_id": 49,
+      "variant_id": 6,
+      "rarity_id": 2,
+      "name": "Trick or Treat The Deer",
+      "image_file": "T_Icon_BR_Creature_Sprite_IncreasedMelee_TrickTreat_L.webp"
+    },
+    {
+      "id": 255,
+      "family_id": 22,
+      "variant_id": 6,
+      "rarity_id": 2,
+      "name": "Trick or Treat Onigiri",
+      "image_file": "T_Icon_BR_Creature_Sprite_WinnerC_TrickTreat_L.webp"
+    },
+    {
+      "id": 256,
+      "family_id": 50,
+      "variant_id": 1,
+      "rarity_id": 3,
+      "name": "Dumpster Dive",
+      "image_file": "T_Icon_BR_Creature_Sprite_WinnerD_L.webp"
+    },
+    {
+      "id": 257,
+      "family_id": 50,
+      "variant_id": 3,
+      "rarity_id": 2,
+      "name": "Cheat Master Dumpster Dive",
+      "image_file": "T_Icon_BR_Creature_Sprite_WinnerD_Cheatmaster_L.webp"
+    },
+    {
+      "id": 258,
+      "family_id": 50,
+      "variant_id": 2,
+      "rarity_id": 2,
+      "name": "Gold Dumpster Dive",
+      "image_file": "T_Icon_BR_Creature_Sprite_WinnerD_Gold_L.webp"
+    },
+    {
+      "id": 259,
+      "family_id": 50,
+      "variant_id": 4,
+      "rarity_id": 2,
+      "name": "Loot Hacker Dumpster Dive",
+      "image_file": "T_Icon_BR_Creature_Sprite_WinnerD_Hacker_L.webp"
+    },
+    {
+      "id": 260,
+      "family_id": 50,
+      "variant_id": 5,
+      "rarity_id": 2,
+      "name": "Bounty Hunter Dumpster Dive",
+      "image_file": "T_Icon_BR_Creature_Sprite_WinnerD_BountyHunter_L.webp"
+    },
+    {
+      "id": 261,
+      "family_id": 50,
+      "variant_id": 6,
+      "rarity_id": 2,
+      "name": "Trick or Treat Dumpster Dive",
+      "image_file": "T_Icon_BR_Creature_Sprite_WinnerD_TrickTreat_L.webp"
+    },
+    {
+      "id": 262,
+      "family_id": 40,
+      "variant_id": 6,
+      "rarity_id": 2,
+      "name": "Trick or Treat Klombo",
+      "image_file": "T_Icon_BR_Creature_Sprite_Klombo_TrickTreat_L.webp"
+    }
+  ],
+  "metadata": {
+    "version": "42-20261012T002525Z",
+    "updated_at": "2026-10-12T00:25:25.026Z",
+    "image_base_uri": "https://fortnite.gg/img/x/sprites/icons/"
+  }
+}

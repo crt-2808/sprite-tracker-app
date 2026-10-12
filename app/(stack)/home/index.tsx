@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import SpriteCard from "@/components/SpriteCard";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { FlatList, View, ActivityIndicator, Pressable } from "react-native";
@@ -12,7 +12,10 @@ const Index = () => {
   const hydrated = useSpriteHydration();
 
   const [selectedSeasonId, setSelectedSeasonId] = useState(42);
-  const data = getSpritesBySeason(selectedSeasonId);
+  const data = useMemo(
+    () => getSpritesBySeason(selectedSeasonId),
+    [selectedSeasonId],
+  );
 
   if (!hydrated) {
     return (
@@ -35,7 +38,7 @@ const Index = () => {
         keyExtractor={(item) => String(item.id)}
         className="flex-1"
         contentContainerClassName="px-1.5 py-3"
-        numColumns={2}
+        numColumns={3}
         renderItem={({ item }) => (
           <View className="w-1/2 px-1.5 mb-3 ">
             <SpriteCard

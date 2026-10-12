@@ -1,5 +1,5 @@
 export interface Rarity {
   id: number;
-  cdoe: string;
+  code: string;
   name: string;
 }

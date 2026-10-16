@@ -18,350 +18,350 @@
       "id": 1,
       "key": "Water",
       "name": "Water",
-      "description": "Replenish shields while standing in water. Increases in power at each Level Up 2 Shield 3 Shield 4 Shield 5 Shield 6 Shield per tick",
+      "description": "Replenish shields while standing in water! Increases in power at each Level Up: 2 Shield -> 3 Shield -> 4 Shield -> 5 Shield -> 6 Shield per tick",
       "seasonID": 41
     },
     {
       "id": 2,
       "key": "Earth",
       "name": "Earth",
-      "description": "You have a chance to find additional rare items when opening chests. Chance increases at each Level Up 10 12. 5 15 17. 5 20 chance to find additional rare loot",
+      "description": "You have a chance to find additional rare items when opening chests. Chance increases at each Level Up: 10% -> 12.5% -> 15% -> 17.5% -> 20% chance to find additional rare loot",
       "seasonID": 41
     },
     {
       "id": 3,
       "key": "Spitfire",
       "name": "Fire",
-      "description": "Creates a fiery burst when you deal enough damage to an enemy. Required damage decreases at each Level Up 150 Damage 125 Damage 100 Damage 75 Damage 50 Damage to trigger",
+      "description": "Creates a fiery burst when you deal enough damage to an enemy! Required damage decreases at each Level Up: 150 Damage -> 125 Damage -> 100 Damage -> 75 Damage -> 50 Damage to trigger",
       "seasonID": 41
     },
     {
       "id": 4,
       "key": "Duck",
       "name": "Duck",
-      "description": "Emoting or Jamming replenishes shields. Increases in power at each Level Up 2 Shield 3 Shield 4 Shield 6 Shield 8 Shield per tick",
+      "description": "Emoting or Jamming replenishes shields. Increases in power at each Level Up: 2 Shield -> 3 Shield -> 4 Shield -> 6 Shield -> 8 Shield per tick",
       "seasonID": 41
     },
     {
       "id": 5,
       "key": "Ghost",
       "name": "Ghost",
-      "description": "Grants cloak for a duration upon reloading. Increases in duration at each Level Up 3 Seconds 3. 5 Seconds 4 Seconds 4. 5 Seconds 5 Seconds",
+      "description": "Grants cloak for a duration upon reloading. Increases in duration at each Level Up: 3 Seconds -> 3.5 Seconds -> 4 Seconds -> 4.5 Seconds -> 5 Seconds",
       "seasonID": 41
     },
     {
       "id": 6,
       "key": "Sleepy",
       "name": "Dream",
-      "description": "Grants a random item at each level exploding with legendary loot at Max Level. Loot value increases at each Level Up",
+      "description": "Grants a random item at each level, exploding with legendary loot at Max Level. Loot value increases at each Level Up!",
       "seasonID": 41
     },
     {
       "id": 7,
       "key": "Punk",
       "name": "Punk",
-      "description": "Possibly nothing. or infinitely something",
+      "description": "Possibly nothing... or infinitely something",
       "seasonID": 41
     },
     {
       "id": 8,
       "key": "King",
       "name": "King",
-      "description": "Your Pickaxe deals more damage. Increases in damage at each Level Up 30 40 60 80 120 bonus damage",
+      "description": "Your Pickaxe deals more damage. Increases in damage at each Level Up: 30 -> 40 -> 60 -> 80 -> 120 bonus damage",
       "seasonID": 41
     },
     {
       "id": 9,
       "key": "ZeroPoint",
       "name": "Zero Point",
-      "description": "Spawn a Shield Bubble Jr. when you use a healing item on yourself excluding splashes and grenades. Increases in duration at each Level Up 6 Seconds 7 Seconds 8 Seconds 9 Seconds 10 Seconds",
+      "description": "Spawn a Shield Bubble Jr. when you use a healing item on yourself (excluding splashes and grenades). Increases in duration at each Level Up: 6 Seconds -> 7 Seconds -> 8 Seconds -> 9 Seconds -> 10 Seconds",
       "seasonID": 41
     },
     {
       "id": 10,
       "key": "Demon",
       "name": "Demon",
-      "description": "Siphon some health and shields when you eliminate an opponent. Increases in power at each Level Up 10 Healing 15 Healing 20 Healing 25 Healing 30 Healing per elimination",
+      "description": "Siphon some health and shields when you eliminate an opponent. Increases in power at each Level Up: 10 Healing -> 15 Healing -> 20 Healing -> 25 Healing -> 30 Healing per elimination",
       "seasonID": 41
     },
     {
       "id": 11,
       "key": "BurntPeanut",
       "name": "Burnt Peanut",
-      "description": "Goop When eliminating players you may find more loot. Sometimes mythic. Chance increases at each Level Up 20 30 40 50 60 chance to find more loot. 10 chance to find Mythic at Max Level",
+      "description": "Goop! When eliminating players, you may find more loot. Sometimes mythic! Chance increases at each Level Up: 20% -> 30% -> 40% -> 50% -> 60% chance to find more loot. 10% chance to find Mythic at Max Level!",
       "seasonID": 41
     },
     {
       "id": 12,
       "key": "Boss",
       "name": "Boss",
-      "description": "Grants an increase to your max HP and Shield. Increases at each Level Up 5 HP Shield 10 HP Shield 15 HP Shield 20 HP Shield 25 HP Shield",
+      "description": "Grants an increase to your max HP and Shield. Increases at each Level Up: 5 HP/Shield -> 10 HP/Shield -> 15 HP/Shield -> 20 HP/Shield -> 25 HP/Shield",
       "seasonID": 41
     },
     {
       "id": 13,
       "key": "Seven",
       "name": "Seven",
-      "description": "Enemy player foot trails are visible in the world for your Squad. Duration increases at each Level Up 10 Seconds 15 Seconds 20 Seconds 25 Seconds 30 Second foot trails",
+      "description": "Enemy player foot trails are visible in the world for your Squad. Duration increases at each Level Up: 10 Seconds -> 15 Seconds -> 20 Seconds -> 25 Seconds -> 30 Second foot trails",
       "seasonID": 41
     },
     {
       "id": 14,
       "key": "Fishy",
       "name": "Fishy",
-      "description": "Swim speed greatly increased. Taking damage also briefly increases movement speed. Increases in power at each Level Up 25 Swim Speed 10 Movement Speed 50 Swim Speed 20 Movement Speed 100 Swim Speed 30 Movement Speed 150 Swim Speed 40 Movement Speed 200 Swim Speed 50 Movement Speed Bonuses",
+      "description": "Swim speed greatly increased. Taking damage also briefly increases movement speed. Increases in power at each Level Up: 25% Swim Speed / 10% Movement Speed -> 50% Swim Speed / 20% Movement Speed -> 100% Swim Speed / 30% Movement Speed -> 150% Swim Speed / 40% Movement Speed -> 200% Swim Speed / 50% Movement Speed Bonuses",
       "seasonID": 41
     },
     {
       "id": 15,
       "key": "Soccer",
       "name": "Striker",
-      "description": "Gain the Overdrive effect when you Mantle Hurdle or Wall Scramble. Duration increases at each Level Up 6 Seconds 7 Seconds 8 Seconds 9 Seconds 10 Seconds of Overdrive",
+      "description": "Gain the Overdrive effect when you Mantle, Hurdle, or Wall Scramble. Duration increases at each Level Up: 6 Seconds -> 7 Seconds -> 8 Seconds -> 9 Seconds -> 10 Seconds of Overdrive",
       "seasonID": 41
     },
     {
       "id": 16,
       "key": "Drifter",
       "name": "Aura",
-      "description": "Gain a Shock Rock charge when you deal enough damage to enemies. Required damage decreases at each Level Up 175 Damage 150 Damage 125 Damage 100 Damage 75 Damage to trigger",
+      "description": "Gain a Shock Rock charge when you deal enough damage to enemies! Required damage decreases at each Level Up: 175 Damage -> 150 Damage -> 125 Damage -> 100 Damage -> 75 Damage to trigger",
       "seasonID": 41
     },
     {
       "id": 17,
       "key": "Air",
       "name": "Air",
-      "description": "Increases sprinting speed and jump height. Also nullifies fall damage. Jump height increased with each Level Up",
+      "description": "Increases sprinting speed and jump height. Also nullifies fall damage. Jump height increased with each Level Up!",
       "seasonID": 41
     },
     {
       "id": 18,
       "key": "Grim",
       "name": "Grim",
-      "description": "Players who attack you are marked for a duration. Increases in duration at each Level Up 3 Seconds 3. 5 Seconds 4 Seconds 4. 5 Seconds 5 Seconds",
+      "description": "Players who attack you are marked for a duration. Increases in duration at each Level Up: 3 Seconds -> 3.5 Seconds -> 4 Seconds -> 4.5 Seconds -> 5 Seconds",
       "seasonID": 41
     },
     {
       "id": 19,
       "key": "Overshield",
       "name": "Overshield",
-      "description": "Grants overshield scaling with level.",
+      "description": "Grants overshield, scaling with level.",
       "seasonID": 42
     },
     {
       "id": 20,
       "key": "ImprovedSlide",
       "name": "Mega Man",
-      "description": "Slip and slide around with reduced friction while Sliding. Slide farther with each Level Up",
+      "description": "Slip and slide around with reduced friction while Sliding. Slide farther with each Level Up!",
       "seasonID": 42
     },
     {
       "id": 21,
       "key": "WinnerB",
       "name": "X-Ray",
-      "description": "Periodically mark enemies in an area around you. Mark more often with each Level Up",
+      "description": "Periodically mark enemies in an area around you. Mark more often with each Level Up!",
       "seasonID": 42
     },
     {
       "id": 22,
       "key": "WinnerC",
       "name": "Onigiri",
-      "description": "Applies Overdrive after eating or drinking a Consumable. Overdrive lasts longer with each Level Up",
+      "description": "Applies Overdrive after eating or drinking a Consumable. Overdrive lasts longer with each Level Up!",
       "seasonID": 42
     },
     {
       "id": 23,
       "key": "GhostDamage",
       "name": "Blinky",
-      "description": "Grants cloak for a duration when you take damage. Cloak duration increases with each Level Up",
+      "description": "Grants cloak for a duration when you take damage. Cloak duration increases with each Level Up!",
       "seasonID": 42
     },
     {
       "id": 24,
       "key": "Birthday",
       "name": "Birthday",
-      "description": "Opening chests has a chance to spawn a piece of cake. Eliminations can spawn cake at max level. Chance to spawn cake increases with each Level Up",
+      "description": "Opening chests has a chance to spawn a piece of cake. Eliminations can spawn cake at max level. Chance to spawn cake increases with each Level Up!",
       "seasonID": 42
     },
     {
       "id": 25,
       "key": "BodySlam",
       "name": "Crash Bandicoot",
-      "description": "Active Jump In Air Triggers a whirlwind attack damaging and knocking back nearby enemies. Damage increases and cooldown decreases with each Level Up",
+      "description": "(Active - Jump In Air) Triggers a whirlwind attack, damaging and knocking back nearby enemies. Damage increases and cooldown decreases with each Level Up!",
       "seasonID": 42
     },
     {
       "id": 26,
       "key": "FillerGrunt",
       "name": "John Wick",
-      "description": "Knocking players reveals others nearby. Mark duration increases at each Level Up 3 Seconds 3. 5 Seconds 4 Seconds 4. 5 Seconds 5 Seconds",
+      "description": "Knocking players reveals others nearby. Mark duration increases at each Level Up: 3 Seconds -> 3.5 Seconds -> 4 Seconds -> 4.5 Seconds -> 5 Seconds",
       "seasonID": 41
     },
     {
       "id": 27,
       "key": "Batman",
       "name": "Batman",
-      "description": "Grants the ability to launch in the air and deploy the Bat Cape",
+      "description": "Grants the ability to launch in the air and deploy the Bat Cape!",
       "seasonID": 41
     },
     {
       "id": 28,
       "key": "WinnerA",
       "name": "Pond",
-      "description": "Active Jump shortly after landing to trigger a Super Jump if charges are present. Gain charges over time. Super jump strength increases and cooldown decreases with each Level Up",
+      "description": "(Active) - Jump shortly after landing to trigger a Super Jump, if charges are present. Gain charges over time. Super jump strength increases and cooldown decreases with each Level Up!",
       "seasonID": 42
     },
     {
       "id": 29,
       "key": "CompanyStargazer",
       "name": "Pollo",
-      "description": "Upon earning an elimination slowly replenish shield for you and nearby squad members for a duration. Duration increases at each Level Up 6 Seconds 7 Seconds 8 Seconds 9 Seconds 10 Seconds",
+      "description": "Upon earning an elimination, slowly replenish shield for you and nearby squad members for a duration. Duration increases at each Level Up: 6 Seconds -> 7 Seconds -> 8 Seconds -> 9 Seconds -> 10 Seconds",
       "seasonID": 41
     },
     {
       "id": 30,
       "key": "CokeParmesan",
       "name": "Vini Jr.",
-      "description": "Sprinting for a short time makes your slide destructive. Slidekicking enemies increases rate of fire and reload speed. Increases in power at each Level Up 40 dmg 10 fire rate 45 dmg 20 fire rate 50 dmg 30 fire rate 55 dmg 40 fire rate 60 dmg 50 fire rate",
+      "description": "Sprinting for a short time makes your slide destructive. Slidekicking enemies increases rate of fire and reload speed. Increases in power at each Level Up: 40 dmg / 10% fire rate -> 45 dmg / 20% fire rate -> 50 dmg / 30% fire rate -> 55 dmg / 40% fire rate -> 60 dmg / 50% fire rate",
       "seasonID": 41
     },
     {
       "id": 31,
       "key": "PedicureAntacid",
       "name": "Ironmouse",
-      "description": "Regenerate health over time when low. While regenerating gain Cloak and low gravity. Health regenerated to increases at each Level Up 60 Health 70 Health 80 Health 90 Health 100 Health",
+      "description": "Regenerate health over time when low. While regenerating, gain Cloak and low gravity! Health regenerated to increases at each Level Up: 60 Health -> 70 Health -> 80 Health -> 90 Health -> 100 Health",
       "seasonID": 41
     },
     {
       "id": 32,
       "key": "Llama",
       "name": "Llama",
-      "description": "Opening ammo boxes has a chance to grant a weapon upgrade. Chance increases at each Level Up 5 10 15 17 20",
+      "description": "Opening ammo boxes has a chance to grant a weapon upgrade. Chance increases at each Level Up: 5% -> 10% -> 15% -> 17% -> 20%",
       "seasonID": 41
     },
     {
       "id": 33,
       "key": "Peely",
       "name": "Peeky Peely",
-      "description": "Emits a ping for players with rare sprites nearby but marks you on the map. Ping radius increases at each Level Up 40m 50m 60m 70m 80m",
+      "description": "Emits a ping for players with rare sprites nearby, but marks you on the map. Ping radius increases at each Level Up: 40m -> 50m -> 60m -> 70m -> 80m",
       "seasonID": 41
     },
     {
       "id": 34,
       "key": "CosmicThunderDoubleJump",
       "name": "Jackrabbit",
-      "description": "Active Jump In Air Double Jump. Cooldown between jumps decreases with each Level Up",
+      "description": "(Active - Jump In Air) Double Jump. Cooldown between jumps decreases with each Level Up!",
       "seasonID": 42
     },
     {
       "id": 35,
       "key": "ReloadOverTime",
       "name": "Shadow",
-      "description": "Automatically reload unequipped weapons over time. Reloads equipped weapon at max level. Automatic reload gets faster with each Level Up",
+      "description": "Automatically reload unequipped weapons over time. Reloads equipped weapon at max level. Automatic reload gets faster with each Level Up!",
       "seasonID": 42
     },
     {
       "id": 36,
       "key": "BushRanger",
       "name": "Bush",
-      "description": "Grants a bush on you after a duration gain a bush on elimination at max level. Time between bush activating decreases with each Level Up",
+      "description": "Grants a bush on you after a duration, gain a bush on elimination at max level. Time between bush activating decreases with each Level Up!",
       "seasonID": 42
     },
     {
       "id": 37,
       "key": "NarrowFleaMonkey",
       "name": "Tails",
-      "description": "Active Jump In Air Hover with the help of Tails. Hover speed increased with each Level Up",
+      "description": "(Active - Jump In Air) Hover with the help of Tails! Hover speed increased with each Level Up!",
       "seasonID": 42
     },
     {
       "id": 38,
       "key": "Killswitch",
       "name": "Killswitch",
-      "description": "Active Aim In Air Enter Hangtime with improved accuracy. Accuracy increases with each Level Up",
+      "description": "(Active - Aim In Air) Enter Hangtime with improved accuracy. Accuracy increases with each Level Up!",
       "seasonID": 42
     },
     {
       "id": 39,
       "key": "Dwarf",
       "name": "Adventure",
-      "description": "Upgrades a random item in the player s inventory with each Level Up",
+      "description": "Upgrades a random item in the player's inventory with each Level Up!",
       "seasonID": 42
     },
     {
       "id": 40,
       "key": "Klombo",
       "name": "Klombo",
-      "description": "Grants random items at each level only levels up by consuming items. Item quality increases with each Level Up",
+      "description": "Grants random items at each level, only levels up by consuming items. Item quality increases with each Level Up!",
       "seasonID": 42
     },
     {
       "id": 41,
       "key": "Jonesy",
       "name": "Jonesy",
-      "description": "Recover some health or shields after being damaged after a short duration. Increase amount healed with each Level Up",
+      "description": "Recover some health or shields after being damaged after a short duration. Increase amount healed with each Level Up!",
       "seasonID": 42
     },
     {
       "id": 42,
       "key": "NarrowFlea",
       "name": "Sonic",
-      "description": "Gotta Go Fast. Sprint faster with each Level Up",
+      "description": "Gotta Go Fast! Sprint faster with each Level Up!",
       "seasonID": 42
     },
     {
       "id": 43,
       "key": "Crown",
       "name": "Crown",
-      "description": "Only levels up by winning matches while equipped. Mastery with 1 win. New variants unlocked after mastering",
+      "description": "Only levels up by winning matches while equipped. Mastery with 1 win. New variants unlocked after mastering!",
       "seasonID": 42
     },
     {
       "id": 44,
       "key": "8BitBlaster",
       "name": "8-Bit",
-      "description": "Find an 8 Bit Shotgun in your first chest and gain a score multiplier for it.",
+      "description": "Find an 8-Bit Shotgun in your first chest and gain a score multiplier for it.",
       "seasonID": 42
     },
     {
       "id": 45,
       "key": "StormScout",
       "name": "Storm Scout",
-      "description": "Applies Overdrive after taking a certain amount of storm damage. Reveals future Storm Circles at max level. Increases Overdrive duration with each Level Up",
+      "description": "Applies Overdrive after taking a certain amount of storm damage. Reveals future Storm Circles at max level. Increases Overdrive duration with each Level Up!",
       "seasonID": 42
     },
     {
       "id": 46,
       "key": "IncreaseHeals",
       "name": "Morgana",
-      "description": "Increases the effectiveness of healing items. Healing effectiveness increases with each Level Up",
+      "description": "Increases the effectiveness of healing items. Healing effectiveness increases with each Level Up!",
       "seasonID": 42
     },
     {
       "id": 47,
       "key": "PhaseDash",
       "name": "Spooky Dash",
-      "description": "Active Jump In Air Spooky Dash lets you phase through some objects. Gain charges over time. Charge cooldown decreases with each Level Up",
+      "description": "(Active - Jump In Air) Spooky Dash lets you phase through some objects. Gain charges over time. Charge cooldown decreases with each Level Up!",
       "seasonID": 42
     },
     {
       "id": 48,
       "key": "HealthSiphon",
       "name": "Vampire",
-      "description": "Recover health when damaging an enemy. Health recovered percent increases with each Level Up",
+      "description": "Recover health when damaging an enemy. Health recovered percent increases with each Level Up!",
       "seasonID": 42
     },
     {
       "id": 49,
       "key": "IncreasedMelee",
       "name": "The Deer",
-      "description": "Melee attacks deal more damage. Melee attack damage increases with each Level Up",
+      "description": "Melee attacks deal more damage. Melee attack damage increases with each Level Up!",
       "seasonID": 42
     },
     {
       "id": 50,
       "key": "WinnerD",
       "name": "Dumpster Dive",
-      "description": "Food provides bonus healing. Find food when jumping out of hiding props and a small chance when opening containers. Find better food with each Level Up",
+      "description": "Food provides bonus healing. Find food when jumping out of hiding props, and a small chance when opening containers. Find better food with each Level Up!",
       "seasonID": 42
     }
   ],
@@ -382,7 +382,7 @@
       "id": 3,
       "code": "cheatmaster",
       "name": "Cheatmaster",
-      "effect": "Button mash All inputs are correct when entering cheat codes found in the world"
+      "effect": "Button mash! All inputs are correct when entering cheat codes found in the world"
     },
     {
       "id": 4,
@@ -394,7 +394,7 @@
       "id": 5,
       "code": "reaper",
       "name": "Reaper",
-      "effect": "Chance to find sprites when eliminating opponents. Only gains sprite XP from eliminations unless sprite has special XP rules."
+      "effect": "Chance to find sprites when eliminating opponents. Only gains sprite XP from eliminations, unless sprite has special XP rules."
     },
     {
       "id": 6,
@@ -412,19 +412,19 @@
       "id": 8,
       "code": "candy",
       "name": "Candy",
-      "effect": "Gain 20 more Sprite Dust upon Extraction"
+      "effect": "Gain 20% more Sprite Dust upon Extraction"
     },
     {
       "id": 9,
       "code": "galaxy",
       "name": "Galaxy",
-      "effect": "Gain 30 more Ammo whenever picked up in the world"
+      "effect": "Gain 30% more Ammo whenever picked up in the world"
     },
     {
       "id": 10,
       "code": "holofoil",
       "name": "Holofoil",
-      "effect": "5 chance for your squad to find rare Sprite Variants from looting chests"
+      "effect": "5% chance for your squad to find rare Sprite Variants from looting chests"
     },
     {
       "id": 11,
@@ -436,7 +436,7 @@
       "id": 12,
       "code": "gem",
       "name": "Gem",
-      "effect": "Take 30 less Fall damage"
+      "effect": "Take 30% less Fall damage"
     }
   ],
   "rarities": [
@@ -1616,7 +1616,7 @@
       "family_id": 25,
       "variant_id": 5,
       "rarity_id": 2,
-      "name": "Bounty Hunter Body Slam",
+      "name": "Bounty Hunter Crash Bandicoot",
       "image_file": "T_Icon_BR_Creature_Sprite_BodySlam_BountyHunter_L.webp"
     },
     {
@@ -2565,8 +2565,80 @@
     }
   ],
   "metadata": {
-    "version": "42-20261012T002525Z",
-    "updated_at": "2026-10-12T00:25:25.026Z",
+    "version": "42-20261015T013536Z",
+    "updated_at": "2026-10-15T01:35:36.908Z",
     "image_base_uri": "https://fortnite.gg/img/x/sprites/icons/"
-  }
+  },
+  "season_variant_orders": [
+    {
+      "season_id": 42,
+      "variant_id": 1,
+      "position": 1
+    },
+    {
+      "season_id": 42,
+      "variant_id": 3,
+      "position": 2
+    },
+    {
+      "season_id": 42,
+      "variant_id": 2,
+      "position": 3
+    },
+    {
+      "season_id": 42,
+      "variant_id": 4,
+      "position": 4
+    },
+    {
+      "season_id": 42,
+      "variant_id": 5,
+      "position": 5
+    },
+    {
+      "season_id": 42,
+      "variant_id": 6,
+      "position": 6
+    },
+    {
+      "season_id": 41,
+      "variant_id": 1,
+      "position": 1
+    },
+    {
+      "season_id": 41,
+      "variant_id": 7,
+      "position": 2
+    },
+    {
+      "season_id": 41,
+      "variant_id": 2,
+      "position": 3
+    },
+    {
+      "season_id": 41,
+      "variant_id": 11,
+      "position": 4
+    },
+    {
+      "season_id": 41,
+      "variant_id": 8,
+      "position": 5
+    },
+    {
+      "season_id": 41,
+      "variant_id": 9,
+      "position": 6
+    },
+    {
+      "season_id": 41,
+      "variant_id": 12,
+      "position": 7
+    },
+    {
+      "season_id": 41,
+      "variant_id": 10,
+      "position": 8
+    }
+  ]
 }

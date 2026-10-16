@@ -3,6 +3,7 @@ import { Rarity } from "./rarity.interface";
 import { Season } from "./season.interface";
 import { SpriteFamily } from "./sprite-family.interface";
 import { Sprite } from "./sprite.interface";
+import { SeasonVariantOrder } from "./variant-order";
 import { Variant } from "./variant.interface";
 
 export interface SpriteCatalog {
@@ -12,4 +13,5 @@ export interface SpriteCatalog {
   rarities: Rarity[];
   sprites: Sprite[];
   metadata: CatalogMetadata;
+  season_variant_orders: SeasonVariantOrder[];
 }
